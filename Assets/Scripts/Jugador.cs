@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using Unity.Cinemachine;
+using NUnit.Framework;
 
 public class Jugador : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class Jugador : MonoBehaviour
 
     public GameObject magia;
 
+    private Animator animator;
+
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.green;
@@ -28,6 +32,7 @@ public class Jugador : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator=GetComponent<Animator>();
         
     }
 
@@ -58,17 +63,27 @@ public class Jugador : MonoBehaviour
             //añadir que dispare la magia 
         }
 
+        if (Input.GetAxisRaw("Horizontal") == 0f)
+        {
+            animator.SetBool("IsMoving",false);
+        }
+        else
+        {
+            animator.SetBool("IsMoving",true);
+        }
+
+
         if (direccion == true) 
         {
             rb.transform.localScale = new Vector2(0.001f, 0.001f);
-            cineMachine2.TargetOffset=new Vector3(3f,1f,0f);
+            cineMachine2.TargetOffset=new Vector3(4.5f,1f,0f);
 
         }
         else 
         {
             // Ponemos la X en negativo para que se gire
             rb.transform.localScale = new Vector2(-0.001f, 0.001f);
-            cineMachine2.TargetOffset=new Vector3(-3f,1f,-0f);
+            cineMachine2.TargetOffset=new Vector3(-4.5f,1f,-0f);
         }
     }
     void FixedUpdate()
