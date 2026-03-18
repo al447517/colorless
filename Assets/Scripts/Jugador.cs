@@ -2,10 +2,12 @@ using UnityEngine;
 using System;
 using Unity.Cinemachine;
 using NUnit.Framework;
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class Jugador : MonoBehaviour
 {
-    public float movementSpeed= 2f;
+    public float movementSpeed= 3f;
     public float speed;
     public float jump = 5f;
     Rigidbody2D rb;
@@ -22,6 +24,9 @@ public class Jugador : MonoBehaviour
 
     private Animator animator;
 
+    public GameObject limitefinal;
+
+
 
     private void OnDrawGizmos()
     {
@@ -33,7 +38,6 @@ public class Jugador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator=GetComponent<Animator>();
-        
     }
 
     // Update is called once per frame
@@ -84,6 +88,10 @@ public class Jugador : MonoBehaviour
             // Ponemos la X en negativo para que se gire
             rb.transform.localScale = new Vector2(-0.001f, 0.001f);
             cineMachine2.TargetOffset=new Vector3(-4.5f,1f,-0f);
+        }
+        void OnTriggerEnter(Collider limitefinal) {
+        
+            SceneManager.LoadScene("Nivel1boss");
         }
     }
     void FixedUpdate()
