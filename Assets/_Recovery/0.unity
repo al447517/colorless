@@ -371,7 +371,7 @@ Transform:
   m_GameObject: {fileID: 163617655}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.276906, y: -2.940344, z: -10}
+  m_LocalPosition: {x: 37.233093, y: -2.940344, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -618,7 +618,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 5.3678376e-24, y: -0.0000000041418726, z: 2.2232899e-32, w: 1}
-  m_LocalPosition: {x: -4.276906, y: -2.940344, z: -10}
+  m_LocalPosition: {x: 37.233093, y: -2.940344, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -689,8 +689,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb1addd1da76f8d4b84feace3cad9940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jugador
-  movementSpeed: 4
-  speed: 4
+  movementSpeed: 3
+  speed: 3
   jump: 5
   groundRadius: 0.3
   groundLayer:
@@ -796,7 +796,7 @@ Transform:
   m_GameObject: {fileID: 522767784}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.6, y: -3.96, z: 0}
+  m_LocalPosition: {x: 32.91, y: -3.96, z: 0}
   m_LocalScale: {x: 0.001, y: 0.001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
