@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: bc0c73101bc8faf49a0f2b8724265420
+guid: 2a518c63f25807f41873b57b7f69f34b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8785459692710036231
-    second: fondonivel1(fg)_0
+      213: 5346622743994404445
+    second: elementosfondo_0
+  - first:
+      213: 5913932471329635082
+    second: elementosfondo_1
+  - first:
+      213: 5831021216371065350
+    second: elementosfondo_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +106,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fondonivel1(fg)_0
+      name: elementosfondo_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3508
-        height: 2480
+        x: 357
+        y: 346
+        width: 519
+        height: 2905
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9fc7183f4f6c31680800000000000000
-      internalID: -8785459692710036231
+      spriteID: d5e8fcbde05033a40800000000000000
+      internalID: 5346622743994404445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elementosfondo_1
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 2074
+        width: 823
+        height: 1348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b3043df32821250800000000000000
+      internalID: 5913932471329635082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elementosfondo_2
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 207
+        width: 862
+        height: 1720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6024097f6e2fbe050800000000000000
+      internalID: 5831021216371065350
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c7644a6c7d9f2c546b22d816e1442803
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fondonivel1(fg)_0: -8785459692710036231
+      elementosfondo_0: 5346622743994404445
+      elementosfondo_1: 5913932471329635082
+      elementosfondo_2: 5831021216371065350
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
