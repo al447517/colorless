@@ -56,6 +56,20 @@ public class Jugador : MonoBehaviour
                 SceneManager.LoadScene("HasPerdido");
             }
         }
+        if (other.CompareTag("vida"))
+        {
+            if (contador == 1)
+            {
+                vida3.SetActive(true);
+            }
+            else if (contador == 2) 
+            {
+                vida2.SetActive(true);
+            }
+            contador-=1;
+            //que desaparezca la vida que coges pero ns como
+        }
+        
     }
 
     IEnumerator PeriodoInvulnerabilidad()
@@ -117,6 +131,16 @@ public class Jugador : MonoBehaviour
         {
             animator.SetBool("IsMoving",true);
         }
+
+        //activar animacion jump(?) no funciona
+        //if (isGrounded == true)
+       // {
+        //    animator.SetBool("IsJumping",true);
+        //}
+        //else
+        //{
+        //    animator.SetBool("IsJumping",false);
+        //}
 
         // para q la camara cambie de sentido y se flipee la imagen
 
