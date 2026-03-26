@@ -114,6 +114,7 @@ public class Jugador : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
+            animator.SetTrigger("Jump");
         }
 
         if (Input.GetMouseButton(0))
@@ -133,13 +134,13 @@ public class Jugador : MonoBehaviour
         }
 
         //activar animacion jump(?) no funciona
-        //if (isGrounded == true)
-       // {
-        //    animator.SetBool("IsJumping",true);
+        //if (Input.GetAxisRaw("Vertical") == 0f)
+        //{
+        //   animator.SetBool("IsJumping",false);
         //}
         //else
         //{
-        //    animator.SetBool("IsJumping",false);
+        //    animator.SetBool("IsJumping",true);
         //}
 
         // para q la camara cambie de sentido y se flipee la imagen

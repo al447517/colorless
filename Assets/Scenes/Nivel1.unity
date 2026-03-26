@@ -2248,6 +2248,7 @@ GameObject:
   - component: {fileID: 1061479125}
   - component: {fileID: 1061479124}
   - component: {fileID: 1061479123}
+  - component: {fileID: 1061479126}
   m_Layer: 0
   m_Name: pngtree-heart-icon-png-image_4421855
   m_TagString: vida
@@ -2375,6 +2376,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1061479126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061479122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82616fc0e7fd16f43bd20344e40a94bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::desaparecer
 --- !u!1 &1092479142
 GameObject:
   m_ObjectHideFlags: 0
