@@ -33,6 +33,9 @@ public class Jugador : MonoBehaviour
 
     public bool esInvulnerable=false;
 
+    private bool atacando;
+    public GameObject rangoAtaque;
+
     
 
  void OnTriggerEnter2D(Collider2D other) 
@@ -67,7 +70,7 @@ public class Jugador : MonoBehaviour
                 vida2.SetActive(true);
             }
             contador-=1;
-            //que desaparezca la vida que coges pero ns como
+            other.gameObject.SetActive(false);
         }
         
     }
@@ -96,6 +99,7 @@ public class Jugador : MonoBehaviour
     {
         //comprueba que esta constantemente tocando el suelo (me lo dijo javi)
         isGrounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, groundLayer);
+
         //movimiento derecha con la tecla d
         if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.D))
         {
@@ -103,6 +107,7 @@ public class Jugador : MonoBehaviour
             rb.AddForce(Vector2.right * movementSpeed, ForceMode2D.Impulse);
             
         }
+
         //movimiento izquierda con la tecla a
         if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.A))
         {
@@ -110,16 +115,19 @@ public class Jugador : MonoBehaviour
             rb.AddForce(Vector2.left * movementSpeed, ForceMode2D.Impulse);
            
         }
+
         //saltar con el espacio
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
-            animator.SetTrigger("Jump");
+            //animator.SetTrigger("Jump"); (NO VA!!!)
         }
 
-        if (Input.GetMouseButton(0))
+        if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.K) && !atacando)
         {
-            //añadir que dispare la magia 
+            Atacando(); //hace que atacando sea true
+            rangoAtaque.SetActive(true);
         }
 
         //configuracion cambio animaciones
@@ -132,6 +140,8 @@ public class Jugador : MonoBehaviour
         {
             animator.SetBool("IsMoving",true);
         }
+
+        animator.SetBool("atacando",atacando);
 
         //activar animacion jump(?) no funciona
         //if (Input.GetAxisRaw("Vertical") == 0f)
@@ -165,5 +175,15 @@ public class Jugador : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocity.x) * speed, rb.linearVelocity.y);
         }
+    }
+
+    void Atacando()
+    {
+        atacando=true;
+    }
+    void DejaDeAtacar()
+    {
+        atacando=false;
+        rangoAtaque.SetActive(false);
     }
 }

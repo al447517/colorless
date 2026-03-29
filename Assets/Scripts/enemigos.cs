@@ -1,20 +1,18 @@
 using UnityEngine;
+
  
 
 public class enemigos : MonoBehaviour
 {
-    public GameObject vida1;
-    public GameObject vida2;
-    public GameObject vida3;
-    public int contador=0;
-        void OnTriggerEnter2D(Collider2D other) 
+    //que desaparezca cuando ataque
+    void OnTriggerEnter2D(Collider2D other)
     {
-
-        if (other.CompareTag("Player")) 
+        if (other.CompareTag("ataque"))
         {
-            
+            this.gameObject.SetActive(false);
         }
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemigo
   - vida
+  - ataque
   layers:
   - Default
   - TransparentFX
