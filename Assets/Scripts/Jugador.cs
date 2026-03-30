@@ -19,7 +19,8 @@ public class Jugador : MonoBehaviour
 
     public CinemachinePositionComposer cineMachine2;
 
-    public bool direccion;
+    public float suavizadoCamara = 5f; 
+    private Vector3 offsetObjetivo;
 
     public GameObject magia;
 
@@ -35,6 +36,7 @@ public class Jugador : MonoBehaviour
 
     private bool atacando;
     public GameObject rangoAtaque;
+
 
     
 
@@ -92,6 +94,7 @@ public class Jugador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator=GetComponent<Animator>();
+        offsetObjetivo = new Vector3(4.5f, 1f, 0f);
     }
 
     // Update is called once per frame
@@ -103,7 +106,6 @@ public class Jugador : MonoBehaviour
         //movimiento derecha con la tecla d
         if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.D))
         {
-            direccion=true;
             rb.AddForce(Vector2.right * movementSpeed, ForceMode2D.Impulse);
             
         }
@@ -111,7 +113,6 @@ public class Jugador : MonoBehaviour
         //movimiento izquierda con la tecla a
         if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.A))
         {
-            direccion=false;
             rb.AddForce(Vector2.left * movementSpeed, ForceMode2D.Impulse);
            
         }
@@ -124,6 +125,8 @@ public class Jugador : MonoBehaviour
             //animator.SetTrigger("Jump"); (NO VA!!!)
         }
 
+        //atacar con la k 
+        
         if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.K) && !atacando)
         {
             Atacando(); //hace que atacando sea true
@@ -155,17 +158,17 @@ public class Jugador : MonoBehaviour
 
         // para q la camara cambie de sentido y se flipee la imagen
 
-        if (direccion == true) 
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            rb.transform.localScale = new Vector2(0.001f, 0.001f);
-            cineMachine2.TargetOffset=new Vector3(4.5f,1f,0f);
-
-        }
-        else 
+            offsetObjetivo = new Vector3(4f, 1f, 0f);
+            rb.transform.localScale = new Vector3(0.001f, 0.001f, 1f);
+            cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(4f, 1f, 0f), Time.deltaTime * 5f);
+        } 
+        else if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            // Ponemos la X en negativo para que se gire
-            rb.transform.localScale = new Vector2(-0.001f, 0.001f);
-            cineMachine2.TargetOffset=new Vector3(-4.5f,1f,-0f);
+            offsetObjetivo = new Vector3(-4f, 1f, 0f);
+            rb.transform.localScale = new Vector3(-0.001f, 0.001f, 1f);
+            cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(-4f, 1f, 0f), Time.deltaTime * 5f);
         }
     }
     void FixedUpdate()
