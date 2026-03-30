@@ -66,13 +66,15 @@ public class Jugador : MonoBehaviour
             if (contador == 1)
             {
                 vida3.SetActive(true);
+                other.gameObject.SetActive(false);
             }
             else if (contador == 2) 
             {
                 vida2.SetActive(true);
+                other.gameObject.SetActive(false);
             }
             contador-=1;
-            other.gameObject.SetActive(false);
+            
         }
         
     }
@@ -80,7 +82,7 @@ public class Jugador : MonoBehaviour
     IEnumerator PeriodoInvulnerabilidad()
     {
         esInvulnerable = true;
-        yield return new WaitForSeconds(1); // Espera 2 segundos
+        yield return new WaitForSeconds(1.5f); // Espera 1.5 segundos
         esInvulnerable = false;
     }
 
@@ -146,15 +148,7 @@ public class Jugador : MonoBehaviour
 
         animator.SetBool("atacando",atacando);
 
-        //activar animacion jump(?) no funciona
-        //if (Input.GetAxisRaw("Vertical") == 0f)
-        //{
-        //   animator.SetBool("IsJumping",false);
-        //}
-        //else
-        //{
-        //    animator.SetBool("IsJumping",true);
-        //}
+        animator.SetBool("saltando", !isGrounded);
 
         // para q la camara cambie de sentido y se flipee la imagen
 

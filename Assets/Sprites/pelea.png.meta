@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ffef1ef80c58b9b45abcb10778b143ae
+guid: 2fd6552f9ca600a4c953f524171bfc6b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2617440977152604122
-    second: pngtree-fight-character-image-png-image_9240264_0
+      213: 1815374547280598895
+    second: pelea_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-fight-character-image-png-image_9240264_0
+      name: pelea_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 31
-        width: 297
-        height: 308
+        x: 0
+        y: 0
+        width: 2048
+        height: 2048
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad77bbf63b4035420800000000000000
-      internalID: 2617440977152604122
+      spriteID: f6712f05881813910800000000000000
+      internalID: 1815374547280598895
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 33307b82df206d84b90321c876d5d64f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      pngtree-fight-character-image-png-image_9240264_0: 2617440977152604122
+      pelea_0: 1815374547280598895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
