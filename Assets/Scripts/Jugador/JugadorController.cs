@@ -1,14 +1,13 @@
 using UnityEngine;
 using System;
 using Unity.Cinemachine;
-using NUnit.Framework;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using System.Collections;
 
-public class Jugador : MonoBehaviour
+public class JugadorController : MonoBehaviour, IDamageable
 {
-    public float movementSpeed= 3f;
+    public float movementSpeed = 3f;
     public float speed;
     public float jump = 7f;
     Rigidbody2D rb;
@@ -19,7 +18,7 @@ public class Jugador : MonoBehaviour
 
     public CinemachinePositionComposer cineMachine2;
 
-    public float suavizadoCamara = 5f; 
+    public float suavizadoCamara = 5f;
     private Vector3 offsetObjetivo;
 
     public GameObject magia;
@@ -30,53 +29,69 @@ public class Jugador : MonoBehaviour
     public GameObject vida1;
     public GameObject vida2;
     public GameObject vida3;
-    public int contador=0;
+    public int vidaActual = 3;
 
-    public bool esInvulnerable=false;
+    public bool esInvulnerable = false;
 
     private bool atacando;
-    public GameObject rangoAtaque;
 
+    private bool IsMoving = false;
 
-    
+    [SerializeField] private AtaqueJugador ataque;
 
- void OnTriggerEnter2D(Collider2D other) 
+    private JugadorInput input;
+
+    void Awake()
     {
-        if (other.CompareTag("Enemigo") && !esInvulnerable) 
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        input = GetComponent<JugadorInput>();
+    }
+
+    public void DarVida(int cantidad)
+    {
+        if (vidaActual < 3)
         {
-            contador+=1;
-            if (contador == 1)
-            {
-                vida3.SetActive(false);
-                StartCoroutine(PeriodoInvulnerabilidad()); 
-            }
-            else if (contador == 2) 
-            {
-                vida2.SetActive(false);
-                StartCoroutine(PeriodoInvulnerabilidad());
-            }
-            else if (contador == 3)
-            {
-                vida1.SetActive(false);
-                SceneManager.LoadScene("HasPerdido");
-            }
+            vidaActual += cantidad;
+            ActualizarVida();
         }
-        if (other.CompareTag("vida"))
+
+    }
+
+    private void ActualizarVida()
+    {
+        if (vidaActual >= 3)
         {
-            if (contador == 1)
-            {
-                vida3.SetActive(true);
-                other.gameObject.SetActive(false);
-            }
-            else if (contador == 2) 
-            {
-                vida2.SetActive(true);
-                other.gameObject.SetActive(false);
-            }
-            contador-=1;
-            
+            vida1.SetActive(true);
+            vida2.SetActive(true);
+            vida3.SetActive(true);
         }
-        
+        else if (vidaActual == 2)
+        {
+            vida1.SetActive(true);
+            vida2.SetActive(true);
+            vida3.SetActive(false);
+        }
+        else if (vidaActual == 1)
+        {
+            vida1.SetActive(true);
+            vida2.SetActive(false);
+            vida3.SetActive(false);
+        }
+        else if (vidaActual <= 0)
+        {
+            vida1.SetActive(false);
+            vida2.SetActive(false);
+            vida3.SetActive(false);
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("vida"))
+        {
+            ActualizarVida();
+        }
     }
 
     IEnumerator PeriodoInvulnerabilidad()
@@ -94,8 +109,6 @@ public class Jugador : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-        animator=GetComponent<Animator>();
         offsetObjetivo = new Vector3(4.5f, 1f, 0f);
     }
 
@@ -106,69 +119,72 @@ public class Jugador : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, groundLayer);
 
         //movimiento derecha con la tecla d
-        if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.D))
+        if (input.IsRightPressed)
         {
             rb.AddForce(Vector2.right * movementSpeed, ForceMode2D.Impulse);
-            
+
+
         }
 
         //movimiento izquierda con la tecla a
-        if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.A))
+        if (input.IsLeftPressed)
         {
             rb.AddForce(Vector2.left * movementSpeed, ForceMode2D.Impulse);
-           
+
         }
 
         //saltar con el espacio
 
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
+        if (input.IsJumpPressed && isGrounded == true)
         {
             rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
-            //animator.SetTrigger("Jump"); (NO VA!!!)
+
         }
 
-        //atacar con la k 
-        
-        if (UnityEngine.Input.GetKey(UnityEngine.KeyCode.K) && !atacando)
+        //atacar con click izquierdo
+
+        if (input.IsAttackPressed && !atacando)
         {
             Atacando(); //hace que atacando sea true
-            rangoAtaque.SetActive(true);
+            ataque.InicializarHitbox(5);
         }
 
         //configuracion cambio animaciones
 
-        if (Input.GetAxisRaw("Horizontal") == 0f)
+        if (!IsMoving)
         {
-            animator.SetBool("IsMoving",false);
+            animator.SetBool("IsMoving", false);
         }
         else
         {
-            animator.SetBool("IsMoving",true);
+            animator.SetBool("IsMoving", true);
         }
 
-        animator.SetBool("atacando",atacando);
+        animator.SetBool("atacando", atacando);
 
         animator.SetBool("saltando", !isGrounded);
 
         // para q la camara cambie de sentido y se flipee la imagen
 
-        if (Input.GetAxisRaw("Horizontal") > 0)
+        if (rb.linearVelocityX > 0)
         {
             offsetObjetivo = new Vector3(4f, 1f, 0f);
             rb.transform.localScale = new Vector3(0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(4f, 1f, 0f), Time.deltaTime * 5f);
-        } 
-        else if (Input.GetAxisRaw("Horizontal") < 0)
+        }
+        else if (rb.linearVelocityX < 0)
         {
             offsetObjetivo = new Vector3(-4f, 1f, 0f);
             rb.transform.localScale = new Vector3(-0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(-4f, 1f, 0f), Time.deltaTime * 5f);
         }
+
+        IsMoving = rb.linearVelocity != Vector2.zero;
     }
     void FixedUpdate()
     {
         //Velocidad maxima (lo he visto en internet)
-        if (Math.Abs(rb.linearVelocity.x)>speed)
+        if (Math.Abs(rb.linearVelocity.x) > speed)
         {
             rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocity.x) * speed, rb.linearVelocity.y);
         }
@@ -176,11 +192,27 @@ public class Jugador : MonoBehaviour
 
     void Atacando()
     {
-        atacando=true;
+        atacando = true;
     }
     void DejaDeAtacar()
     {
-        atacando=false;
-        rangoAtaque.SetActive(false);
+        atacando = false;
+    }
+
+    public void Damage(int DamageAmount)
+    {
+        if (esInvulnerable) return;
+        vidaActual -= 1;
+        StartCoroutine(PeriodoInvulnerabilidad());
+        if (vidaActual <= 0 )
+        {
+            Die();
+        }
+        ActualizarVida();
+    }
+
+    public void Die()
+    {
+        SceneManager.LoadScene("HasPerdido");
     }
 }
