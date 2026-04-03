@@ -48,5 +48,15 @@ public class EnemyController : MonoBehaviour,IDamageable
             movement=Vector2.zero;
         }
         rb.MovePosition(rb.position+movement*speed*Time.deltaTime);
+
+        if (rb.linearVelocityX > 0)
+        {
+            rb.transform.localScale = new Vector3(0.0702726f, 0.0702726f, 1f);
+        }
+        else if (rb.linearVelocityX < 0)
+        {
+            rb.transform.localScale = new Vector3(-0.0702726f, 0.0702726f, 1f);
+        }
+
     }
 }
