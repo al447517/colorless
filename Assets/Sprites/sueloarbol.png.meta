@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: d0e094b6f3c9f4941b6ebab5486b4452
+guid: ca934d4f5ebb214408bca5862ff3fa42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9185902289153991145
-    second: 437-4370992_destellos-magia-png_0
-  - first:
-      213: -6961730609503363440
-    second: 437-4370992_destellos-magia-png_1
-  - first:
-      213: 7965671760583431644
-    second: 437-4370992_destellos-magia-png_2
-  - first:
-      213: 3552872545284740594
-    second: 437-4370992_destellos-magia-png_3
-  - first:
-      213: -1553955203105764262
-    second: 437-4370992_destellos-magia-png_4
-  - first:
-      213: -7847915520435757732
-    second: 437-4370992_destellos-magia-png_5
-  - first:
-      213: -6829264277203183402
-    second: 437-4370992_destellos-magia-png_6
-  - first:
-      213: -7819906396552213809
-    second: 437-4370992_destellos-magia-png_7
+      213: 2336669189989574242
+    second: sueloarbol_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 437-4370992_destellos-magia-png_0
+      name: sueloarbol_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 418
-        height: 413
+        width: 2480
+        height: 2480
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71e5789798e158080800000000000000
-      internalID: -9185902289153991145
+      spriteID: 266ade28f348d6020800000000000000
+      internalID: 2336669189989574242
       vertices: []
       indices: 
       edges: []
@@ -146,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 97a7efa4d74403a488304ee3beb33f11
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -154,11 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":418.0,"y":413.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      437-4370992_destellos-magia-png_0: -9185902289153991145
+      sueloarbol_0: 2336669189989574242
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
