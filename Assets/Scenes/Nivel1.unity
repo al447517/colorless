@@ -713,8 +713,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &95490643
 Rigidbody2D:
@@ -1161,7 +1161,7 @@ Transform:
   m_GameObject: {fileID: 163617655}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.07875, y: -1.8903441, z: -10}
+  m_LocalPosition: {x: -3.0213447, y: -2.710344, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2187,7 +2187,7 @@ Transform:
   m_GameObject: {fileID: 453657207}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 195.37009, y: 4.997, z: 0}
+  m_LocalPosition: {x: 195.37009, y: 3.9970002, z: 0}
   m_LocalScale: {x: 0.56637615, y: 0.44866332, z: 0.013283992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2690,7 +2690,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 5.3678376e-24, y: -0.0000000041418726, z: 2.2232899e-32, w: 1}
-  m_LocalPosition: {x: 59.07875, y: -1.8903441, z: -10}
+  m_LocalPosition: {x: -3.0213447, y: -2.710344, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2780,6 +2780,8 @@ MonoBehaviour:
   vidaActual: 3
   esInvulnerable: 0
   ataque: {fileID: 2143840323}
+  materialNuevo: {fileID: 2100000, guid: 143da5a00050c6d479790f0f662457d3, type: 2}
+  materialViejo: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
 --- !u!212 &522767786
 SpriteRenderer:
   serializedVersion: 2
@@ -2875,7 +2877,7 @@ Transform:
   m_GameObject: {fileID: 522767784}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 54.72, y: -2.91, z: 0}
+  m_LocalPosition: {x: -7.38, y: -3.73, z: 0}
   m_LocalScale: {x: 0.001, y: 0.001, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3066,8 +3068,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &586535233
 Rigidbody2D:
@@ -3434,7 +3436,7 @@ Transform:
   m_GameObject: {fileID: 647780599}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 151.7112, y: -10.356991, z: 0}
+  m_LocalPosition: {x: 151.7112, y: -10.83699, z: 0}
   m_LocalScale: {x: 0.7957995, y: 0.44805, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3556,7 +3558,7 @@ Transform:
   m_GameObject: {fileID: 715231625}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 171.3976, y: -7.876991, z: 0}
+  m_LocalPosition: {x: 171.3976, y: -8.876991, z: 0}
   m_LocalScale: {x: 0.79144657, y: 0.44805, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3746,8 +3748,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.50931454, b: 1, a: 1}
+  m_Sprite: {fileID: -6424668662779233213, guid: 9a73ccc1d0bb5e447b77b3a7e3e1109c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3765,8 +3767,8 @@ Transform:
   m_GameObject: {fileID: 744402791}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.29, y: -4.51, z: 0}
-  m_LocalScale: {x: 8, y: 25, z: 1}
+  m_LocalPosition: {x: 56.25, y: -2.07, z: 0}
+  m_LocalScale: {x: 0.31280047, y: 0.30292827, z: 0.026760446}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4556,7 +4558,7 @@ Transform:
   m_GameObject: {fileID: 893521366}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.68579155, w: 0.72779804}
-  m_LocalPosition: {x: 55.54, y: 0.23, z: 0}
+  m_LocalPosition: {x: 53.7, y: 0.23, z: 0}
   m_LocalScale: {x: 0.23823936, y: 0.23823936, z: 0.23823936}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4700,8 +4702,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &911471414
 Rigidbody2D:
@@ -4884,8 +4886,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &919064484
 Rigidbody2D:
@@ -5625,7 +5627,7 @@ Transform:
   m_GameObject: {fileID: 1123896011}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 151.76, y: 0.52, z: 0}
+  m_LocalPosition: {x: 151.76, y: 0.04, z: 0}
   m_LocalScale: {x: 0.56637615, y: 0.44866332, z: 0.013283992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5796,8 +5798,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'score:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b1ca1c28b8775d64db7300c2981205aa, type: 2}
-  m_sharedMaterial: {fileID: -78272763218559421, guid: b1ca1c28b8775d64db7300c2981205aa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6943,8 +6945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &1487583172
 Rigidbody2D:
@@ -7845,7 +7847,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 3
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8785459692710036231, guid: bc0c73101bc8faf49a0f2b8724265420, type: 3}
+  m_Sprite: {fileID: 1751551327808064371, guid: 0675cd8c22b92834aaf9928605c43c34, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7896,7 +7898,7 @@ Transform:
   m_GameObject: {fileID: 1671387735}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 187, y: -6.7019, z: 0}
+  m_LocalPosition: {x: 187, y: -7.7019, z: 0}
   m_LocalScale: {x: 1.5997797, y: 0.46323466, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8343,7 +8345,7 @@ Transform:
   m_GameObject: {fileID: 1725849100}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 198.11008, y: -2.57, z: 0}
+  m_LocalPosition: {x: 198.11008, y: -3.57, z: 0}
   m_LocalScale: {x: 0.0537, y: 0.0537, z: 0.0537}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8584,7 +8586,7 @@ Transform:
   m_GameObject: {fileID: 1728861080}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 171.5, y: 3, z: 0}
+  m_LocalPosition: {x: 171.5, y: 2, z: 0}
   m_LocalScale: {x: 0.56637615, y: 0.44866332, z: 0.013283992}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9031,8 +9033,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 522767789}
-  detectionRadius: 15
-  speed: 7
+  detectionRadius: 20
+  speed: 10
   Score: {fileID: 1138109276}
 --- !u!50 &1756100888
 Rigidbody2D:
@@ -9922,7 +9924,7 @@ Transform:
   m_GameObject: {fileID: 1975150298}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 175.5401, y: 4.997, z: 0}
+  m_LocalPosition: {x: 175.5401, y: 3.9970002, z: 0}
   m_LocalScale: {x: 0.56637615, y: 0.44866332, z: 0.013283992}
   m_ConstrainProportionsScale: 0
   m_Children: []

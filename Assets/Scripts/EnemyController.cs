@@ -12,8 +12,8 @@ public class EnemyController : MonoBehaviour,IDamageable
 
     public void Damage(int DamageAmount)
     {
-        Score.SumaScore(10);
         Die();
+        Score.SumaScore(10);
     }
 
     public void Die()
@@ -51,15 +51,13 @@ public class EnemyController : MonoBehaviour,IDamageable
         }
         rb.MovePosition(rb.position+movement*speed*Time.deltaTime);
 
-        //no va ns pq
-        if (rb.linearVelocityX > 0)
+        if (movement.x < 0)
         {
-            rb.transform.localScale = new Vector3(0.0702726f, 0.0702726f, 1f);
+            transform.localScale = new Vector3(0.0702726f, 0.0702726f, 1f);
         }
-        else if (rb.linearVelocityX < 0)
+        else if (movement.x > 0)
         {
-            rb.transform.localScale = new Vector3(-0.0702726f, 0.0702726f, 1f);
+            transform.localScale = new Vector3(-0.0702726f, 0.0702726f, 1f);
         }
-
     }
 }

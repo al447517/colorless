@@ -41,6 +41,10 @@ public class JugadorController : MonoBehaviour, IDamageable
 
     private JugadorInput input;
 
+    private Renderer myRenderer;
+    public Material materialNuevo;
+    public Material materialViejo;
+
     
     void Awake()
     {
@@ -97,8 +101,15 @@ public class JugadorController : MonoBehaviour, IDamageable
 
     IEnumerator PeriodoInvulnerabilidad()
     {
+        //parpadeo
         esInvulnerable = true;
-        yield return new WaitForSeconds(1.5f); // Espera 1.5 segundos
+        myRenderer.material = materialNuevo;
+        yield return new WaitForSeconds(0.5f);
+        myRenderer.material = materialViejo;
+        yield return new WaitForSeconds(0.5f); 
+        myRenderer.material = materialNuevo;
+        yield return new WaitForSeconds(0.5f);
+        myRenderer.material = materialViejo;
         esInvulnerable = false;
     }
 
@@ -111,6 +122,7 @@ public class JugadorController : MonoBehaviour, IDamageable
     void Start()
     {
         offsetObjetivo = new Vector3(4.5f, 1f, 0f);
+        myRenderer = GetComponent<Renderer>();
     }
 
     // Update is called once per frame
