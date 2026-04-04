@@ -41,6 +41,7 @@ public class JugadorController : MonoBehaviour, IDamageable
 
     private JugadorInput input;
 
+    
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();

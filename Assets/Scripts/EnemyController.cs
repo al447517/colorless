@@ -5,12 +5,14 @@ public class EnemyController : MonoBehaviour,IDamageable
     public Transform player;
     public float detectionRadius =5.0f;
     public float speed = 2.0f;
-
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    [SerializeField] private ScoreController Score;
+
     public void Damage(int DamageAmount)
     {
+        Score.SumaScore(10);
         Die();
     }
 
