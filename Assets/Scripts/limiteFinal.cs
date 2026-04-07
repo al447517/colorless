@@ -8,7 +8,7 @@ public class limiteFinal : MonoBehaviour
 
         if (other.CompareTag("Player")) 
         {
-            SceneManager.LoadScene("Nivel1boss");
+            SceneManager.LoadScene("Nivel2");
         }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created

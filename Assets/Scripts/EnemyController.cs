@@ -8,11 +8,15 @@ public class EnemyController : MonoBehaviour,IDamageable
     private Rigidbody2D rb;
     private Vector2 movement;
 
+    private Animator animator;
+    private bool isDead = false;
+
     [SerializeField] private ScoreController Score;
 
     public void Damage(int DamageAmount)
     {
-        Die();
+        GetComponent<Collider2D>().enabled = false;
+        animator.SetBool("IsDead", true);
         Score.SumaScore(10);
     }
 
@@ -33,6 +37,7 @@ public class EnemyController : MonoBehaviour,IDamageable
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
