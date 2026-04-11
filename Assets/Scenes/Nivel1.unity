@@ -3047,7 +3047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 492647330}
   - component: {fileID: 492647331}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3965,7 +3965,7 @@ GameObject:
   m_Component:
   - component: {fileID: 647780600}
   - component: {fileID: 647780601}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4238,7 +4238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692928668}
   - component: {fileID: 692928669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4254,8 +4254,8 @@ Transform:
   m_GameObject: {fileID: 692928667}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 218.8294, y: 3.9368896, z: 0}
-  m_LocalScale: {x: 0.80031264, y: 0.6907918, z: 1}
+  m_LocalPosition: {x: 218.8294, y: 3.0549, z: 0}
+  m_LocalScale: {x: 0.80031264, y: 0.61963254, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1872514868}
@@ -4329,7 +4329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715231626}
   - component: {fileID: 715231627}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5756,7 +5756,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924916558}
   - component: {fileID: 924916559}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5772,8 +5772,8 @@ Transform:
   m_GameObject: {fileID: 924916557}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 199.1492, y: 3.9368896, z: 0}
-  m_LocalScale: {x: 0.80031264, y: 0.6907918, z: 1}
+  m_LocalPosition: {x: 199.1492, y: 3.0781, z: 0}
+  m_LocalScale: {x: 0.80031264, y: 0.62151474, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1872514868}
@@ -6059,13 +6059,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935367203}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7081043, w: 0.70610785}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 91.757034, y: -10.582609, z: 0}
   m_LocalScale: {x: 0.26739067, y: 0.26739067, z: 0.26739067}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 589928638}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &945836431
 GameObject:
   m_ObjectHideFlags: 0
@@ -6092,13 +6092,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 945836431}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7081043, w: 0.70610785}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 56.07, y: -3, z: 0}
   m_LocalScale: {x: 0.26739067, y: 0.26739067, z: 0.26739067}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 589928638}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &945836433
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8616,13 +8616,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224539219}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7081043, w: 0.70610785}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 48.48703, y: -1.16261, z: 0}
   m_LocalScale: {x: 0.26739067, y: 0.26739067, z: 0.26739067}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 589928638}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90.162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1255323334
 GameObject:
   m_ObjectHideFlags: 0
@@ -9759,7 +9759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1530130033}
   - component: {fileID: 1530130034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10616,7 +10616,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8129098529358535005, guid: 0a143110896add041b975b167a2bb1f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11953,7 +11953,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1861317559}
   - component: {fileID: 1861317560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelosuelo_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12076,8 +12076,8 @@ Transform:
   - {fileID: 492647330}
   - {fileID: 647780600}
   - {fileID: 715231626}
-  - {fileID: 924916558}
   - {fileID: 692928668}
+  - {fileID: 924916558}
   - {fileID: 1530130033}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
