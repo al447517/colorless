@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   player: {fileID: 0}
   detectionRadius: 20
-  speed: 10
+  speed: 2
   Score: {fileID: 0}
 --- !u!61 &1355070214885821863
 BoxCollider2D:

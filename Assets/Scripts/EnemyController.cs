@@ -41,26 +41,30 @@ public class EnemyController : MonoBehaviour,IDamageable
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        float distancetToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distancetToPlayer < detectionRadius)
+        if (distanceToPlayer < detectionRadius && !isDead)
         {
-            Vector2 direction =(player.position-transform.position).normalized;
-            movement=new Vector2(direction.x,0);
+            Vector2 direction = (player.position - transform.position).normalized;
+            movement = new Vector2(direction.x, 0);
+
+            // Mantener la velocidad actual en Y (gravedad) y solo modificar la X
+            rb.linearVelocity = new Vector2(movement.x * speed, rb.linearVelocity.y);
         }
         else
         {
-            movement=Vector2.zero;
+            // Frenar gradualmente cuando no persigue
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x * 0.95f, rb.linearVelocity.y);
         }
-        rb.MovePosition(rb.position+movement*speed*Time.deltaTime);
 
-        if (movement.x < 0)
+        // Flip del sprite
+        if (rb.linearVelocity.x < 0)
         {
             transform.localScale = new Vector3(0.0702726f, 0.0702726f, 1f);
         }
-        else if (movement.x > 0)
+        else if (rb.linearVelocity.x > 0)
         {
             transform.localScale = new Vector3(-0.0702726f, 0.0702726f, 1f);
         }
