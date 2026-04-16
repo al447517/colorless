@@ -15,7 +15,11 @@ public class EnemyController : MonoBehaviour,IDamageable
 
     public void Damage(int DamageAmount)
     {
+        if (isDead) return;
+
+        isDead = true;
         GetComponent<Collider2D>().enabled = false;
+        rb.linearVelocity = Vector2.zero;
         animator.SetBool("IsDead", true);
         Score.SumaScore(10);
     }

@@ -121,7 +121,7 @@ public class JugadorController : MonoBehaviour, IDamageable
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        offsetObjetivo = new Vector3(4.5f, 1f, 0f);
+        offsetObjetivo = new Vector3(3f, 1f, 0f);
         myRenderer = GetComponent<Renderer>();
     }
 
@@ -159,7 +159,6 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (input.IsAttackPressed && !atacando)
         {
             Atacando(); //hace que atacando sea true
-            ataque.InicializarHitbox(5);
         }
 
         //configuracion cambio animaciones
@@ -181,13 +180,13 @@ public class JugadorController : MonoBehaviour, IDamageable
 
         if (rb.linearVelocityX > 0)
         {
-            offsetObjetivo = new Vector3(4f, 1f, 0f);
+            offsetObjetivo = new Vector3(3f, 1f, 0f);
             rb.transform.localScale = new Vector3(0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(4f, 1f, 0f), Time.deltaTime * 5f);
         }
         else if (rb.linearVelocityX < 0)
         {
-            offsetObjetivo = new Vector3(-4f, 1f, 0f);
+            offsetObjetivo = new Vector3(-3f, 1f, 0f);
             rb.transform.localScale = new Vector3(-0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(-4f, 1f, 0f), Time.deltaTime * 5f);
         }
@@ -211,7 +210,10 @@ public class JugadorController : MonoBehaviour, IDamageable
     {
         atacando = false;
     }
-
+    public void AplicarDaño()
+    {
+        ataque.InicializarHitbox(5);
+    }
     public void Damage(int DamageAmount)
     {
         if (esInvulnerable) return;

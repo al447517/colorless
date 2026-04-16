@@ -9,7 +9,10 @@ public class AtaqueJugador : MonoBehaviour
     [SerializeField] LayerMask enemyLayer;
     public void InicializarHitbox(int Damage)
     {
-        Collider2D[] hits=Physics2D.OverlapBoxAll(hitbox.transform.position,hitbox.size,0f,enemyLayer); 
+        
+        Bounds b = hitbox.bounds;
+        //cuenta el numero de objetos en la enemyLayer que hay en la 'caja' del ataque
+        Collider2D[] hits = Physics2D.OverlapBoxAll(b.center,b.size,0f,enemyLayer); 
 
         foreach(Collider2D hit in hits)
         {
@@ -28,7 +31,7 @@ public class AtaqueJugador : MonoBehaviour
     }
     void Start()
     {
-        gameObject.SetActive(false);
+        
     }
 
     // Update is called once per frame
