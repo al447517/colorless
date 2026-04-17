@@ -64,6 +64,7 @@ Assets/Scripts/
   JugadorInput.cs
  limiteFinal.cs
  ParalaxEffect.cs
+ PlataformaMovil.cs
  ScoreController.cs
 Assets/TextMesh Pro/Examples & Extras/Scripts/
  Benchmark01.cs

@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: e4401aa8669c35345ae7ac592173f34e
+guid: ebe409c6c43ced24ab5dbe1d922dcfa1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6558863351903711234
-    second: elementosnivel2_0
+      213: -4970846039216337056
+    second: alga1_0
   - first:
-      213: 5206487424806548509
-    second: elementosnivel2_1
-  - first:
-      213: 7224719194979775139
-    second: elementosnivel2_2
-  - first:
-      213: 704128667558370005
-    second: elementosnivel2_3
-  - first:
-      213: 763290706831914975
-    second: elementosnivel2_4
+      213: -633459371521887179
+    second: alga1_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: elementosnivel2_0
+      name: alga1_0
       rect:
         serializedVersion: 2
-        x: 222
-        y: 1347
-        width: 521
-        height: 869
+        x: 686
+        y: 322
+        width: 732
+        height: 1370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eff8373288c3af4a0800000000000000
-      internalID: -6558863351903711234
+      spriteID: 06f4a5f2dd1040bb0800000000000000
+      internalID: -4970846039216337056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elementosnivel2_1
+      name: alga1_1
       rect:
         serializedVersion: 2
-        x: 939
-        y: 1363
-        width: 627
-        height: 756
+        x: 995
+        y: 266
+        width: 7
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,74 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d14f12b4ab8214840800000000000000
-      internalID: 5206487424806548509
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elementosnivel2_2
-      rect:
-        serializedVersion: 2
-        x: 1732
-        y: 1325
-        width: 662
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a237b264db534460800000000000000
-      internalID: 7224719194979775139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elementosnivel2_3
-      rect:
-        serializedVersion: 2
-        x: 765
-        y: 436
-        width: 627
-        height: 756
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5da5cf1ea4195c900800000000000000
-      internalID: 704128667558370005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: elementosnivel2_4
-      rect:
-        serializedVersion: 2
-        x: 1578
-        y: 418
-        width: 662
-        height: 776
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd7b2119ad0c79a00800000000000000
-      internalID: 763290706831914975
+      spriteID: 534bbccce008537f0800000000000000
+      internalID: -633459371521887179
       vertices: []
       indices: 
       edges: []
@@ -235,11 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      elementosnivel2_0: -6558863351903711234
-      elementosnivel2_1: 5206487424806548509
-      elementosnivel2_2: 7224719194979775139
-      elementosnivel2_3: 704128667558370005
-      elementosnivel2_4: 763290706831914975
+      alga1_0: -4970846039216337056
+      alga1_1: -633459371521887179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

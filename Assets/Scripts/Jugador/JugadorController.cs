@@ -97,6 +97,19 @@ public class JugadorController : MonoBehaviour, IDamageable
         {
             ActualizarVida();
         }
+
+        if (collision.gameObject.CompareTag("plataformaMovil"))
+        {
+            transform.parent=collision.transform;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("plataformaMovil"))
+        {
+            transform.parent=null;
+        }
     }
 
     IEnumerator PeriodoInvulnerabilidad()
@@ -135,7 +148,6 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (input.IsRightPressed)
         {
             rb.AddForce(Vector2.right * movementSpeed, ForceMode2D.Impulse);
-
 
         }
 
