@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: bfc9470660b1352479219133aa76d699
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8486382607981431759
+    second: botones inicio_0
+  - first:
+      213: -2591721623853759001
+    second: botones inicio_1
+  - first:
+      213: 3384331297524439896
+    second: botones inicio_2
+  - first:
+      213: -7491558962770888194
+    second: botones inicio_3
+  - first:
+      213: -6095433866460569495
+    second: botones inicio_4
+  - first:
+      213: -4067889793537722101
+    second: botones inicio_5
+  - first:
+      213: -2278392804759595567
+    second: botones inicio_6
+  - first:
+      213: -5876434289634084781
+    second: botones inicio_7
+  - first:
+      213: 6380471231676138029
+    second: botones inicio_8
+  - first:
+      213: -6460055128041642265
+    second: botones inicio_9
+  - first:
+      213: -8109019029928859149
+    second: botones inicio_10
+  - first:
+      213: 5163128354759846005
+    second: botones inicio_11
+  - first:
+      213: -1358625394140941796
+    second: botones inicio_12
+  - first:
+      213: 3201213571197314407
+    second: botones inicio_13
+  - first:
+      213: 537235854080618705
+    second: botones inicio_14
+  - first:
+      213: -5263581020881119876
+    second: botones inicio_15
+  - first:
+      213: 4133274573979270930
+    second: botones inicio_16
+  - first:
+      213: 4478689915222268458
+    second: botones inicio_17
+  - first:
+      213: 8891477545863678689
+    second: botones inicio_18
+  - first:
+      213: -6958955359523527379
+    second: botones inicio_19
+  - first:
+      213: -4405170617701914386
+    second: botones inicio_20
+  - first:
+      213: -2657562369001111914
+    second: botones inicio_21
+  - first:
+      213: 1651481570294796444
+    second: botones inicio_22
+  - first:
+      213: -1320767345956899313
+    second: botones inicio_23
+  - first:
+      213: -3526054329090113866
+    second: botones inicio_24
+  - first:
+      213: 2945840824884362900
+    second: botones inicio_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botones inicio_0
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1713
+        width: 1674
+        height: 352
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb49c8e400b5c570800000000000000
+      internalID: 8486382607981431759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones inicio_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1101
+        width: 581
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e623af76164956a0800000000000000
+      internalID: -6460055128041642265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones inicio_13
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 792
+        width: 1114
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765206148cefc6c20800000000000000
+      internalID: 3201213571197314407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botones inicio_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 391
+        width: 517
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e3e331b117e1bd0800000000000000
+      internalID: -2657562369001111914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 902d95978baae214ba35ccb5af50a6d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botones inicio_0: 8486382607981431759
+      botones inicio_1: -2591721623853759001
+      botones inicio_10: -8109019029928859149
+      botones inicio_11: 5163128354759846005
+      botones inicio_12: -1358625394140941796
+      botones inicio_13: 3201213571197314407
+      botones inicio_14: 537235854080618705
+      botones inicio_15: -5263581020881119876
+      botones inicio_16: 4133274573979270930
+      botones inicio_17: 4478689915222268458
+      botones inicio_18: 8891477545863678689
+      botones inicio_19: -6958955359523527379
+      botones inicio_2: 3384331297524439896
+      botones inicio_20: -4405170617701914386
+      botones inicio_21: -2657562369001111914
+      botones inicio_22: 1651481570294796444
+      botones inicio_23: -1320767345956899313
+      botones inicio_24: -3526054329090113866
+      botones inicio_25: 2945840824884362900
+      botones inicio_3: -7491558962770888194
+      botones inicio_4: -6095433866460569495
+      botones inicio_5: -4067889793537722101
+      botones inicio_6: -2278392804759595567
+      botones inicio_7: -5876434289634084781
+      botones inicio_8: 6380471231676138029
+      botones inicio_9: -6460055128041642265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
