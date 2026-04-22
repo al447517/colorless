@@ -240,6 +240,15 @@ public class JugadorController : MonoBehaviour, IDamageable
 
     public void Die()
     {
-        SceneManager.LoadScene("HasPerdido");
+        Scene escenaActual = SceneManager.GetActiveScene();
+        if (escenaActual.name == "Nivel1")
+        {
+            SceneManager.LoadScene("HasPerdido1");
+        }
+        if (escenaActual.name == "Nivel2")
+        {
+            SceneManager.LoadScene("HasPerdido2");
+        }
+
     }
 }

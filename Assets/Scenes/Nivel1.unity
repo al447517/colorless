@@ -13798,8 +13798,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2440265803032152484, guid: 5739f8e2048d034438073f0be8e9c6fb, type: 3}
+      propertyPath: Damping.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2440265803032152484, guid: 5739f8e2048d034438073f0be8e9c6fb, type: 3}
+      propertyPath: Damping.y
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2440265803032152484, guid: 5739f8e2048d034438073f0be8e9c6fb, type: 3}
       propertyPath: TargetOffset.x
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2440265803032152484, guid: 5739f8e2048d034438073f0be8e9c6fb, type: 3}
+      propertyPath: Lookahead.Smoothing
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 8042421945849970516, guid: 5739f8e2048d034438073f0be8e9c6fb, type: 3}
       propertyPath: m_Name
