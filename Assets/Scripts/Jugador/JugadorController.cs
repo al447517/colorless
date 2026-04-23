@@ -101,6 +101,8 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (collision.gameObject.CompareTag("plataformaMovil"))
         {
             transform.parent=collision.transform;
+            speed *= 5;
+            Debug.Log("Velocidad aumentada");
         }
     }
 
@@ -109,6 +111,8 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (collision.gameObject.CompareTag("plataformaMovil"))
         {
             transform.parent=null;
+            speed /= 5;
+            Debug.Log("Velocidad restaurada");
         }
     }
 
