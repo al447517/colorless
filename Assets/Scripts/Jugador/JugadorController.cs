@@ -208,6 +208,11 @@ public class JugadorController : MonoBehaviour, IDamageable
         }
 
         IsMoving = rb.linearVelocity != Vector2.zero;
+
+        if (transform.position.y < -11)
+        {
+            Die();
+        }
     }
     void FixedUpdate()
     {
