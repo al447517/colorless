@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 4d9257f6fae576843a22b71b0126b2c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 143371574968378757
+    second: wining_0
+  - first:
+      213: -1235589503437520832
+    second: wining_1
+  - first:
+      213: 5528632190566277429
+    second: wining_2
+  - first:
+      213: 7740821788619500934
+    second: wining_3
+  - first:
+      213: -2904579609253745603
+    second: wining_4
+  - first:
+      213: 500354401526617909
+    second: wining_5
+  - first:
+      213: 2472356289785795640
+    second: wining_6
+  - first:
+      213: -4232500788799791549
+    second: wining_7
+  - first:
+      213: 7896293438931705242
+    second: wining_8
+  - first:
+      213: -8272345456567425406
+    second: wining_9
+  - first:
+      213: 6962300704706951509
+    second: wining_10
+  - first:
+      213: -7674325223114503512
+    second: wining_11
+  - first:
+      213: 7573539361427954233
+    second: wining_12
+  - first:
+      213: -4089103796327788694
+    second: wining_13
+  - first:
+      213: 3977082655811505805
+    second: wining_14
+  - first:
+      213: 4454473930386371242
+    second: wining_15
+  - first:
+      213: 2046579770945682067
+    second: wining_16
+  - first:
+      213: 369104553116897062
+    second: wining_17
+  - first:
+      213: 823788514329160333
+    second: wining_18
+  - first:
+      213: 1315907782328121418
+    second: wining_19
+  - first:
+      213: -7293293966114433026
+    second: wining_20
+  - first:
+      213: -213285310472802795
+    second: wining_21
+  - first:
+      213: -6938740981027450233
+    second: wining_22
+  - first:
+      213: 2146789171731775875
+    second: wining_23
+  - first:
+      213: -7706796357834061390
+    second: wining_24
+  - first:
+      213: 6708497245708757876
+    second: wining_25
+  - first:
+      213: 508386881706987021
+    second: wining_26
+  - first:
+      213: 6695327310558698878
+    second: wining_27
+  - first:
+      213: -2359299418996259218
+    second: wining_28
+  - first:
+      213: 7071922417013075605
+    second: wining_29
+  - first:
+      213: -6424214502717194208
+    second: wining_30
+  - first:
+      213: 2662820831022323022
+    second: wining_31
+  - first:
+      213: -1902166776954107251
+    second: wining_32
+  - first:
+      213: 4852558487370139422
+    second: wining_33
+  - first:
+      213: 8413775978529507951
+    second: wining_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wining_0
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2641
+        width: 240
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585e0e410bb5df100800000000000000
+      internalID: 143371574968378757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 2633
+        width: 253
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040c76f94ed4adee0800000000000000
+      internalID: -1235589503437520832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_2
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2644
+        width: 209
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5312e747fa5a9bc40800000000000000
+      internalID: 5528632190566277429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_3
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2648
+        width: 323
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68de444776cec6b60800000000000000
+      internalID: 7740821788619500934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_4
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 2633
+        width: 252
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c66980c3cd0b7d0800000000000000
+      internalID: -2904579609253745603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_5
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2642
+        width: 228
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5371ccc5dad91f600800000000000000
+      internalID: 500354401526617909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_6
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 2685
+        width: 75
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83492ea42f29f4220800000000000000
+      internalID: 2472356289785795640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_7
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 2592
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e170415f22345c0800000000000000
+      internalID: -4232500788799791549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_8
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1984
+        width: 178
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d95cddb05459d60800000000000000
+      internalID: 7896293438931705242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2096
+        width: 201
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2866bf1d2a9b23d80800000000000000
+      internalID: -8272345456567425406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 2083
+        width: 169
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55972836a9f0f9060800000000000000
+      internalID: 6962300704706951509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2097
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa8071bed15f7590800000000000000
+      internalID: -7674325223114503512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_12
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 2084
+        width: 179
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a1a524ced9a1960800000000000000
+      internalID: 7573539361427954233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_13
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 2096
+        width: 202
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f4e2223c59047c0800000000000000
+      internalID: -4089103796327788694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_14
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 2083
+        width: 169
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e030e9a9f613730800000000000000
+      internalID: 3977082655811505805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_15
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 1980
+        width: 184
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2fae9507871dd30800000000000000
+      internalID: 4454473930386371242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_16
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2094
+        width: 169
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39ab7bb5579e66c10800000000000000
+      internalID: 2046579770945682067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_17
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 2072
+        width: 193
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f038da2a25f1500800000000000000
+      internalID: 369104553116897062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1678
+        width: 192
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae2a60a4fae6b00800000000000000
+      internalID: 823788514329160333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_19
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1700
+        width: 169
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48f6d2f72b034210800000000000000
+      internalID: 1315907782328121418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_20
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1698
+        width: 187
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7df3387c309ca90800000000000000
+      internalID: -7293293966114433026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_21
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1701
+        width: 183
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ea571e3224a0df0800000000000000
+      internalID: -213285310472802795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_22
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1703
+        width: 201
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782d96d37d3a4bf90800000000000000
+      internalID: -6938740981027450233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_23
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 1712
+        width: 82
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3814ab4a06deacd10800000000000000
+      internalID: 2146789171731775875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_24
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1703
+        width: 202
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9c60f7b85fb0590800000000000000
+      internalID: -7706796357834061390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_25
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1690
+        width: 179
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b282ba3be591d50800000000000000
+      internalID: 6708497245708757876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_26
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1310
+        width: 180
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e0d94ec272e0700800000000000000
+      internalID: 508386881706987021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_27
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1314
+        width: 187
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d92d037b49aec50800000000000000
+      internalID: 6695327310558698878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_28
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1307
+        width: 183
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6641f3bda5124fd0800000000000000
+      internalID: -2359299418996259218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_29
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1311
+        width: 163
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59eaf2938f3842260800000000000000
+      internalID: 7071922417013075605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_30
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1346
+        width: 74
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02001ac52fa98d6a0800000000000000
+      internalID: -6424214502717194208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_31
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1409
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e459895007d34f420800000000000000
+      internalID: 2662820831022323022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_32
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1301
+        width: 219
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ac91cf4652a95e0800000000000000
+      internalID: -1902166776954107251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_33
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 1253
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17018bfb30c75340800000000000000
+      internalID: 4852558487370139422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wining_34
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 1299
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a47f3acacb3c470800000000000000
+      internalID: 8413775978529507951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wining_0: 143371574968378757
+      wining_1: -1235589503437520832
+      wining_10: 6962300704706951509
+      wining_11: -7674325223114503512
+      wining_12: 7573539361427954233
+      wining_13: -4089103796327788694
+      wining_14: 3977082655811505805
+      wining_15: 4454473930386371242
+      wining_16: 2046579770945682067
+      wining_17: 369104553116897062
+      wining_18: 823788514329160333
+      wining_19: 1315907782328121418
+      wining_2: 5528632190566277429
+      wining_20: -7293293966114433026
+      wining_21: -213285310472802795
+      wining_22: -6938740981027450233
+      wining_23: 2146789171731775875
+      wining_24: -7706796357834061390
+      wining_25: 6708497245708757876
+      wining_26: 508386881706987021
+      wining_27: 6695327310558698878
+      wining_28: -2359299418996259218
+      wining_29: 7071922417013075605
+      wining_3: 7740821788619500934
+      wining_30: -6424214502717194208
+      wining_31: 2662820831022323022
+      wining_32: -1902166776954107251
+      wining_33: 4852558487370139422
+      wining_34: 8413775978529507951
+      wining_4: -2904579609253745603
+      wining_5: 500354401526617909
+      wining_6: 2472356289785795640
+      wining_7: -4232500788799791549
+      wining_8: 7896293438931705242
+      wining_9: -8272345456567425406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

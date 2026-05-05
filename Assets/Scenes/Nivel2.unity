@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4497264}
   - component: {fileID: 4497263}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   m_Component:
   - component: {fileID: 45119994}
   - component: {fileID: 45119995}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 54804402}
   - component: {fileID: 54804401}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga2_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 60033998}
   - component: {fileID: 60033999}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73282992}
   - component: {fileID: 73282991}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 74663012}
   - component: {fileID: 74663011}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -706,7 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85807067}
   - component: {fileID: 85807068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -797,7 +797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 92634534}
   - component: {fileID: 92634533}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1022,7 +1022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96277241}
   - component: {fileID: 96277242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138589651}
   - component: {fileID: 138589650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1204,7 +1204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 176091181}
   - component: {fileID: 176091182}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1295,7 +1295,7 @@ GameObject:
   m_Component:
   - component: {fileID: 186240210}
   - component: {fileID: 186240211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,7 +1524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 196599846}
   - component: {fileID: 196599845}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,9 +1613,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48253694547586518, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 945242067175820029, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083632547414626721, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990829800499594387, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_Name
       value: PlataformaMovimiento (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8474487425434416026, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23462,7 +23482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232395625}
   - component: {fileID: 232395624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23553,7 +23573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296781733}
   - component: {fileID: 296781732}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23644,7 +23664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 299038086}
   - component: {fileID: 299038085}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23735,7 +23755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 318623096}
   - component: {fileID: 318623095}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23826,7 +23846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 325525860}
   - component: {fileID: 325525859}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23915,9 +23935,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48253694547586518, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 945242067175820029, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083632547414626721, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990829800499594387, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_Name
       value: PlataformaMovimiento (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8151091720077143001, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23986,7 +24026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 367651469}
   - component: {fileID: 367651468}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24077,7 +24117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434406002}
   - component: {fileID: 434406001}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24168,7 +24208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 449610122}
   - component: {fileID: 449610121}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24259,7 +24299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463038885}
   - component: {fileID: 463038884}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24350,7 +24390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 469185409}
   - component: {fileID: 469185408}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24440,7 +24480,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470427909}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: corales
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24531,7 +24571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476321300}
   - component: {fileID: 476321301}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24622,7 +24662,7 @@ GameObject:
   m_Component:
   - component: {fileID: 487688187}
   - component: {fileID: 487688186}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24713,7 +24753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 512950106}
   - component: {fileID: 512950107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24804,7 +24844,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523935248}
   - component: {fileID: 523935247}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24895,7 +24935,7 @@ GameObject:
   m_Component:
   - component: {fileID: 529930165}
   - component: {fileID: 529930166}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24986,7 +25026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556030561}
   - component: {fileID: 556030560}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25134,16 +25174,16 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &581332180
@@ -25159,6 +25199,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 942281265}
   - {fileID: 908597858}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25210,14 +25251,15 @@ MonoBehaviour:
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
-  m_Cameras: []
+  m_Cameras:
+  - {fileID: 942281266}
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -25248,7 +25290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 581637033}
   - component: {fileID: 581637034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25339,7 +25381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 585075051}
   - component: {fileID: 585075050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25430,7 +25472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 585787496}
   - component: {fileID: 585787497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25632,7 +25674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 660915095}
   - component: {fileID: 660915096}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25723,7 +25765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 662371060}
   - component: {fileID: 662371061}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25783,7 +25825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696894018}
   - component: {fileID: 696894019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25874,7 +25916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 697853116}
   - component: {fileID: 697853117}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25965,7 +26007,7 @@ GameObject:
   m_Component:
   - component: {fileID: 699515300}
   - component: {fileID: 699515299}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26056,7 +26098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 736325034}
   - component: {fileID: 736325035}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26147,7 +26189,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737253288}
   - component: {fileID: 737253289}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26238,7 +26280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 800272204}
   - component: {fileID: 800272205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26328,7 +26370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818000678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26388,7 +26430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827761453}
   - component: {fileID: 827761452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26479,7 +26521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 846965485}
   - component: {fileID: 846965484}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26570,7 +26612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 857776381}
   - component: {fileID: 857776380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26661,7 +26703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873595401}
   - component: {fileID: 873595402}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26864,7 +26906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880560800}
   - component: {fileID: 880560799}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26955,7 +26997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 889438165}
   - component: {fileID: 889438166}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27265,6 +27307,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 581332180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &942281264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 581332180}
+    m_Modifications:
+    - target: {fileID: 3474309085266767232, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_Name
+      value: Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.2174225
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5220442
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550313888855235038, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5550313888855235038, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 6945
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+--- !u!4 &942281265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5113827007829235376, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+  m_PrefabInstance: {fileID: 942281264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &942281266 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5550313888855235038, guid: c14bdf5f9e6d9564f8315b0d7c837934, type: 3}
+  m_PrefabInstance: {fileID: 942281264}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &948413595
 GameObject:
   m_ObjectHideFlags: 0
@@ -27275,7 +27392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948413596}
   - component: {fileID: 948413597}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27554,7 +27671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 972990575}
   - component: {fileID: 972990576}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27645,7 +27762,7 @@ GameObject:
   m_Component:
   - component: {fileID: 978352418}
   - component: {fileID: 978352419}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27795,7 +27912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 988053766}
   - component: {fileID: 988053765}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga2_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27943,7 +28060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 997074378}
   - component: {fileID: 997074377}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28034,7 +28151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017663083}
   - component: {fileID: 1017663084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28276,7 +28393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1057860658}
   - component: {fileID: 1057860659}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28367,7 +28484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058778583}
   - component: {fileID: 1058778584}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28458,7 +28575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1077282578}
   - component: {fileID: 1077282577}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28549,7 +28666,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1086320469}
   - component: {fileID: 1086320468}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28778,7 +28895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098802667}
   - component: {fileID: 1098802666}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28869,7 +28986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101937776}
   - component: {fileID: 1101937775}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28998,7 +29115,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1129521837}
   - component: {fileID: 1129521838}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29089,7 +29206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136892235}
   - component: {fileID: 1136892234}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29180,7 +29297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1144258610}
   - component: {fileID: 1144258609}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelomar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29271,7 +29388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1150908539}
   - component: {fileID: 1150908538}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29362,7 +29479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1153730293}
   - component: {fileID: 1153730294}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29453,7 +29570,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1164195553}
   - component: {fileID: 1164195554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29544,7 +29661,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167640155}
   - component: {fileID: 1167640156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29635,7 +29752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171268590}
   - component: {fileID: 1171268589}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29726,7 +29843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1197335767}
   - component: {fileID: 1197335766}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29817,7 +29934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1214336180}
   - component: {fileID: 1214336179}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: suelomar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29908,7 +30025,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1250279841}
   - component: {fileID: 1250279840}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29999,7 +30116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1260631625}
   - component: {fileID: 1260631624}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30090,7 +30207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1298038723}
   - component: {fileID: 1298038722}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30181,7 +30298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325095236}
   - component: {fileID: 1325095235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30272,7 +30389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332539352}
   - component: {fileID: 1332539353}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30363,7 +30480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337122150}
   - component: {fileID: 1337122151}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30535,7 +30652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1365386496}
   - component: {fileID: 1365386497}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30616,6 +30733,67 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1001 &1398304838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3517246247809163357, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_Name
+      value: blanco y negro
+      objectReference: {fileID: 0}
+    - target: {fileID: 3865527956343117508, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: Score
+      value: 
+      objectReference: {fileID: 1958455063}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 199.26837
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 23.22375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4170606672228598272, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: face7ee54fccca34d8c13f4137efc332, type: 3}
 --- !u!1 &1398714619
 GameObject:
   m_ObjectHideFlags: 0
@@ -30626,7 +30804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1398714621}
   - component: {fileID: 1398714620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30717,7 +30895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435525301}
   - component: {fileID: 1435525302}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30808,7 +30986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1438320956}
   - component: {fileID: 1438320955}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30899,7 +31077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466170212}
   - component: {fileID: 1466170213}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30995,7 +31173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1495277095}
   - component: {fileID: 1495277094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31086,7 +31264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1520954429}
   - component: {fileID: 1520954428}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31177,7 +31355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528688760}
   - component: {fileID: 1528688761}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31268,7 +31446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538959739}
   - component: {fileID: 1538959738}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga2_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31359,7 +31537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1545511055}
   - component: {fileID: 1545511054}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31450,7 +31628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547402144}
   - component: {fileID: 1547402145}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31541,7 +31719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547550432}
   - component: {fileID: 1547550433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31632,7 +31810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1557602710}
   - component: {fileID: 1557602709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31723,7 +31901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564355602}
   - component: {fileID: 1564355603}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31819,7 +31997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1566576381}
   - component: {fileID: 1566576380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31910,7 +32088,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569609204}
   - component: {fileID: 1569609203}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32001,7 +32179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573120417}
   - component: {fileID: 1573120418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32092,7 +32270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1582217227}
   - component: {fileID: 1582217226}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32183,7 +32361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1626217892}
   - component: {fileID: 1626217893}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32274,7 +32452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1632679653}
   - component: {fileID: 1632679652}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32503,7 +32681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675799488}
   - component: {fileID: 1675799489}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32594,7 +32772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1704419747}
   - component: {fileID: 1704419746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga2_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32685,7 +32863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709059686}
   - component: {fileID: 1709059685}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32998,7 +33176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1746034946}
   - component: {fileID: 1746034947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33089,7 +33267,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771487592}
   - component: {fileID: 1771487593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33180,7 +33358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1778028863}
   - component: {fileID: 1778028862}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33271,7 +33449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1790570995}
   - component: {fileID: 1790570994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33362,7 +33540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1866005283}
   - component: {fileID: 1866005282}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33453,7 +33631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1877306866}
   - component: {fileID: 1877306865}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: objetoss2_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33544,7 +33722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1888700785}
   - component: {fileID: 1888700784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33635,7 +33813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1897986987}
   - component: {fileID: 1897986986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33726,7 +33904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1906257320}
   - component: {fileID: 1906257319}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33817,7 +33995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928886382}
   - component: {fileID: 1928886383}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34132,7 +34310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1956500652}
   - component: {fileID: 1956500653}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34234,7 +34412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1974240507}
   - component: {fileID: 1974240508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34325,7 +34503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1992460597}
   - component: {fileID: 1992460596}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34416,7 +34594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2002696662}
   - component: {fileID: 2002696663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34507,7 +34685,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015803405}
   - component: {fileID: 2015803406}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(fg)_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34598,7 +34776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2038810866}
   - component: {fileID: 2038810867}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34689,7 +34867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2044227141}
   - component: {fileID: 2044227142}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2.(bg)png_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34845,7 +35023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109517642}
   - component: {fileID: 2109517641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34936,7 +35114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110444974}
   - component: {fileID: 2110444973}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35027,7 +35205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2118739621}
   - component: {fileID: 2118739620}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: alga1_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35118,7 +35296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2123791268}
   - component: {fileID: 2123791269}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: fondonivel2.2(mg)_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35209,7 +35387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2130236311}
   - component: {fileID: 2130236310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: elementosnivel2_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35303,9 +35481,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 48253694547586518, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 945242067175820029, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1083632547414626721, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2990829800499594387, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_Name
       value: PlataformaMovimiento
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897116692447319059, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5061243018777812811, guid: 71fb48922c904c84f8eaddf469cdbd84, type: 3}
       propertyPath: m_Constraints
@@ -35379,3 +35577,4 @@ SceneRoots:
   - {fileID: 208768777}
   - {fileID: 996026862}
   - {fileID: 1044804351}
+  - {fileID: 1398304838}

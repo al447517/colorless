@@ -21,8 +21,6 @@ public class JugadorController : MonoBehaviour, IDamageable
     public float suavizadoCamara = 5f;
     private Vector3 offsetObjetivo;
 
-    public GameObject magia;
-
     private Animator animator;
 
     public GameObject limitefinal;
