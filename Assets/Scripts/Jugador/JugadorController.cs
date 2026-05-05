@@ -116,6 +116,7 @@ public class JugadorController : MonoBehaviour, IDamageable
         }
     }
 
+    //lo hice con ayuda buscando en internet
     IEnumerator PeriodoInvulnerabilidad()
     {
         //parpadeo
@@ -209,6 +210,8 @@ public class JugadorController : MonoBehaviour, IDamageable
 
         IsMoving = rb.linearVelocity != Vector2.zero;
 
+        //para que muera si cae al vacío
+        
         if (transform.position.y < -11)
         {
             Die();

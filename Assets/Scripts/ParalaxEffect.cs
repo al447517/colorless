@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//script de diego el profesor
 public class ParallaxEffect : MonoBehaviour
 {
     [Header("Configuración")]

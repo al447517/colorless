@@ -7,6 +7,8 @@ public class AtaqueJugador : MonoBehaviour
 
     BoxCollider2D hitbox;
     [SerializeField] LayerMask enemyLayer;
+
+    //al metodo InicializarHitbox me ayudo Adrià Sánchez ya que como lo tenia anteriormente me daba problemas y los enemigos no funcionaban correctamente
     public void InicializarHitbox(int Damage)
     {
         

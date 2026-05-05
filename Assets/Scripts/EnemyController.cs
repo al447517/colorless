@@ -18,6 +18,7 @@ public class EnemyController : MonoBehaviour,IDamageable
         if (isDead) return;
 
         isDead = true;
+        //para que no te haga mas daño mientras tiene la animacion de morir
         GetComponent<Collider2D>().enabled = false;
         rb.linearVelocity = Vector2.zero;
         animator.SetBool("IsDead", true);
@@ -33,6 +34,7 @@ public class EnemyController : MonoBehaviour,IDamageable
     {
         if (other.CompareTag("Player"))
         {
+            //usando la interfaz con la que me ha ayudado Adrià
             other.gameObject.GetComponent<JugadorController>().Damage(1);
         }
 
@@ -54,7 +56,7 @@ public class EnemyController : MonoBehaviour,IDamageable
             Vector2 direction = (player.position - transform.position).normalized;
             movement = new Vector2(direction.x, 0);
 
-            // Mantener la velocidad actual en Y (gravedad) y solo modificar la X
+            // Mantener la velocidad actual en Y (gravedad) para que no flote y solo modificar la X
             rb.linearVelocity = new Vector2(movement.x * speed, rb.linearVelocity.y);
         }
         else

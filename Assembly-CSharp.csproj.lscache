@@ -54,10 +54,12 @@ Assets/Scripts/
  BlancoYNegro.cs
  botones/
   BotonControles.cs
+  BotonExit.cs
   BotonInicio.cs
   BotonSalir.cs
  CorazonItem.cs
  EnemyController.cs
+ gema2.cs
  Interfaces/IDamageable.cs
  Jugador/
   AtaqueJugador.cs
