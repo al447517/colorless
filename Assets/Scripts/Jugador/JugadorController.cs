@@ -99,8 +99,9 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (collision.gameObject.CompareTag("plataformaMovil"))
         {
             transform.parent=collision.transform;
-            speed *= 5;
-            Debug.Log("Velocidad aumentada");
+            speed=20;
+            //speed *= 5;
+            //Debug.Log("Velocidad aumentada");
         }
     }
 
@@ -109,8 +110,9 @@ public class JugadorController : MonoBehaviour, IDamageable
         if (collision.gameObject.CompareTag("plataformaMovil"))
         {
             transform.parent=null;
-            speed /= 5;
-            Debug.Log("Velocidad restaurada");
+            speed=4;
+            //speed /= 5;
+            //Debug.Log("Velocidad restaurada");
         }
     }
 
@@ -193,13 +195,13 @@ public class JugadorController : MonoBehaviour, IDamageable
 
         // para q la camara cambie de sentido y se flipee la imagen
 
-        if (rb.linearVelocityX > 0)
+        if (input.IsRightPressed)
         {
             offsetObjetivo = new Vector3(3f, 1f, 0f);
             rb.transform.localScale = new Vector3(0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(4f, 1f, 0f), Time.deltaTime * 5f);
         }
-        else if (rb.linearVelocityX < 0)
+        else if (input.IsLeftPressed)
         {
             offsetObjetivo = new Vector3(-3f, 1f, 0f);
             rb.transform.localScale = new Vector3(-0.001f, 0.001f, 1f);
