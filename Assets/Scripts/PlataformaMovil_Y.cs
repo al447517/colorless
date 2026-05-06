@@ -2,7 +2,7 @@ using System;
 using System.Net;
 using UnityEngine;
 //visto en un video de youtube
-public class PlataformaMovil : MonoBehaviour 
+public class PlataformaMovil_Y : MonoBehaviour 
 {
     public GameObject objetoAmover;
 
@@ -11,7 +11,7 @@ public class PlataformaMovil : MonoBehaviour
 
     public float velocidad=3f;
 
-    private bool direccionderecha;
+    private bool direccionarriba;
 
     private Rigidbody2D rb;
 
@@ -23,30 +23,30 @@ public class PlataformaMovil : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        direccionderecha=true;
+        direccionarriba=true;
 
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
 
-        if (direccionderecha)
+        if (direccionarriba)
         {
-            rb.linearVelocity = new Vector2(velocidad, 0);
-            if (transform.position.x >= puntoFinal.position.x)
+            rb.linearVelocity = new Vector2(0, velocidad);
+            if (transform.position.y >= puntoFinal.position.y)
             {
                 Girar();
-                direccionderecha=false;
+                direccionarriba=false;
             }
         }
         else 
         {
-            rb.linearVelocity = new Vector2(-velocidad, 0);
-            if (transform.position.x <= puntoInicial.position.x)
+            rb.linearVelocity = new Vector2(0, -velocidad);
+            if (transform.position.y <= puntoInicial.position.y)
             {
                 Girar();
-                direccionderecha=true;
+                direccionarriba=true;
             }
         }
 
@@ -60,3 +60,4 @@ public class PlataformaMovil : MonoBehaviour
         objetoAmover.transform.localScale = escala;
     }
 }
+

@@ -96,25 +96,20 @@ public class JugadorController : MonoBehaviour, IDamageable
             ActualizarVida();
         }
 
-        if (collision.gameObject.CompareTag("plataformaMovil"))
-        {
-            transform.parent=collision.transform;
-            speed=20;
-            //speed *= 5;
-            //Debug.Log("Velocidad aumentada");
-        }
+    //    if (collision.gameObject.CompareTag("plataformaMovil"))
+    //     {
+
+    //     }
+    
     }
 
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("plataformaMovil"))
-        {
-            transform.parent=null;
-            speed=4;
-            //speed /= 5;
-            //Debug.Log("Velocidad restaurada");
-        }
-    }
+    // void OnCollisionExit2D(Collision2D collision)
+    // {
+    //     if (collision.gameObject.CompareTag("plataformaMovil"))
+    //     {
+
+    //     }
+    // }
 
     //lo hice con ayuda buscando en internet
     IEnumerator PeriodoInvulnerabilidad()
