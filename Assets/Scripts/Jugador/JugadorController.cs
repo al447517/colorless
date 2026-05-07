@@ -43,6 +43,8 @@ public class JugadorController : MonoBehaviour, IDamageable
     public Material materialNuevo;
     public Material materialViejo;
 
+    private PlataformaMovil plataformaActual;
+
     
     void Awake()
     {
@@ -96,20 +98,20 @@ public class JugadorController : MonoBehaviour, IDamageable
             ActualizarVida();
         }
 
-    //    if (collision.gameObject.CompareTag("plataformaMovil"))
-    //     {
-
-    //     }
-    
+        //asi puedo acceder al script de la plataforma en la q estoy subido en ese momento
+        if (collision.gameObject.CompareTag("plataformaMovil"))
+        {
+            plataformaActual = collision.gameObject.GetComponent<PlataformaMovil>();
+        }
     }
 
-    // void OnCollisionExit2D(Collision2D collision)
-    // {
-    //     if (collision.gameObject.CompareTag("plataformaMovil"))
-    //     {
-
-    //     }
-    // }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("plataformaMovil"))
+        {
+            plataformaActual = null;
+        }
+    }
 
     //lo hice con ayuda buscando en internet
     IEnumerator PeriodoInvulnerabilidad()
@@ -145,26 +147,30 @@ public class JugadorController : MonoBehaviour, IDamageable
         isGrounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, groundLayer);
 
         //movimiento derecha con la tecla d
+        float movimientoX = 0;
+
         if (input.IsRightPressed)
         {
-            rb.AddForce(Vector2.right * movementSpeed, ForceMode2D.Impulse);
-
+            movimientoX = speed;
+        }
+        else if (input.IsLeftPressed)
+        {
+            movimientoX = -speed;
         }
 
-        //movimiento izquierda con la tecla a
-        if (input.IsLeftPressed)
+        if (plataformaActual != null)
         {
-            rb.AddForce(Vector2.left * movementSpeed, ForceMode2D.Impulse);
-
+            movimientoX += plataformaActual.velocidadPlataforma.x;
         }
 
         //saltar con el espacio
 
-        if (input.IsJumpPressed && isGrounded == true)
+        if (input.IsJumpPressed && isGrounded)
         {
-            rb.AddForce(Vector2.up * jump, ForceMode2D.Impulse);
-
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
         }
+
+        rb.linearVelocity = new Vector2(movimientoX, rb.linearVelocity.y);
 
         //atacar con click izquierdo
 

@@ -9,9 +9,11 @@ public class PlataformaMovil : MonoBehaviour
     public Transform puntoInicial;
     public Transform puntoFinal;
 
-    public float velocidad=3f;
+    private float velocidad= 4f;
 
     private bool direccionderecha;
+
+    public Vector2 velocidadPlataforma;
 
     private Rigidbody2D rb;
 
@@ -33,7 +35,8 @@ public class PlataformaMovil : MonoBehaviour
 
         if (direccionderecha)
         {
-            rb.linearVelocity = new Vector2(velocidad, 0);
+            velocidadPlataforma = new Vector2(velocidad, 0);
+            rb.linearVelocity = velocidadPlataforma;
             if (transform.position.x >= puntoFinal.position.x)
             {
                 Girar();
@@ -42,7 +45,8 @@ public class PlataformaMovil : MonoBehaviour
         }
         else 
         {
-            rb.linearVelocity = new Vector2(-velocidad, 0);
+            velocidadPlataforma = new Vector2(-velocidad, 0);
+            rb.linearVelocity = velocidadPlataforma;
             if (transform.position.x <= puntoInicial.position.x)
             {
                 Girar();

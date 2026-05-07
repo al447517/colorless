@@ -1,0 +1,4329 @@
+fileFormatVersion: 2
+guid: 097bab187db1d50419b44b7330d990e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5018124557860297802
+    second: inicio_0
+  - first:
+      213: -8364129254591117511
+    second: inicio_1
+  - first:
+      213: 5427613066424067960
+    second: inicio_2
+  - first:
+      213: 5815868580454308526
+    second: inicio_3
+  - first:
+      213: 9123788669331791091
+    second: inicio_4
+  - first:
+      213: -7272507314318182418
+    second: inicio_5
+  - first:
+      213: 5536365496421144500
+    second: inicio_6
+  - first:
+      213: -3914188188279727424
+    second: inicio_7
+  - first:
+      213: -7971138988283005890
+    second: inicio_8
+  - first:
+      213: -672943426496126696
+    second: inicio_9
+  - first:
+      213: 5597495943788237123
+    second: inicio_10
+  - first:
+      213: 7207666125653566575
+    second: inicio_11
+  - first:
+      213: -9062603067685974509
+    second: inicio_12
+  - first:
+      213: 2114769604572960309
+    second: inicio_13
+  - first:
+      213: -6699959529865910014
+    second: inicio_14
+  - first:
+      213: 7921010923037654851
+    second: inicio_15
+  - first:
+      213: -4992853857686288111
+    second: inicio_16
+  - first:
+      213: -5747699726395440921
+    second: inicio_17
+  - first:
+      213: -639158172193103202
+    second: inicio_18
+  - first:
+      213: -2932603007941320352
+    second: inicio_19
+  - first:
+      213: -5677678826026713694
+    second: inicio_20
+  - first:
+      213: 849065591515615855
+    second: inicio_21
+  - first:
+      213: -2126924521739484996
+    second: inicio_22
+  - first:
+      213: 5733523095599984999
+    second: inicio_23
+  - first:
+      213: -8182495929796346438
+    second: inicio_24
+  - first:
+      213: -3134051986261538715
+    second: inicio_25
+  - first:
+      213: -8152045061233717192
+    second: inicio_26
+  - first:
+      213: 2896596598514629795
+    second: inicio_27
+  - first:
+      213: 1018764282194602089
+    second: inicio_28
+  - first:
+      213: -5602960892639275935
+    second: inicio_29
+  - first:
+      213: -1746309510721959435
+    second: inicio_30
+  - first:
+      213: -5350507217441970565
+    second: inicio_31
+  - first:
+      213: -1627659427842950135
+    second: inicio_32
+  - first:
+      213: 9192670981559202501
+    second: inicio_33
+  - first:
+      213: -4883757833653845972
+    second: inicio_34
+  - first:
+      213: -5357248562560770810
+    second: inicio_35
+  - first:
+      213: 8844931254489607879
+    second: inicio_36
+  - first:
+      213: 2036958280385784019
+    second: inicio_37
+  - first:
+      213: 9148827927586533508
+    second: inicio_38
+  - first:
+      213: 1602639326616569607
+    second: inicio_39
+  - first:
+      213: 2346983283748435820
+    second: inicio_40
+  - first:
+      213: -5586412339434636141
+    second: inicio_41
+  - first:
+      213: -7876425227463589638
+    second: inicio_42
+  - first:
+      213: -1783928574667409541
+    second: inicio_43
+  - first:
+      213: -6739592379718207147
+    second: inicio_44
+  - first:
+      213: -1616540184399624346
+    second: inicio_45
+  - first:
+      213: 4502258214865862897
+    second: inicio_46
+  - first:
+      213: 6358356118805198406
+    second: inicio_47
+  - first:
+      213: 7327110204215026513
+    second: inicio_48
+  - first:
+      213: -5234660523612986475
+    second: inicio_49
+  - first:
+      213: -545399796519148162
+    second: inicio_50
+  - first:
+      213: 8867279098739501049
+    second: inicio_51
+  - first:
+      213: 4832093754880977820
+    second: inicio_52
+  - first:
+      213: -7737447782964045734
+    second: inicio_53
+  - first:
+      213: -7304056145094109986
+    second: inicio_54
+  - first:
+      213: -8436460553382006513
+    second: inicio_55
+  - first:
+      213: 4302752200592411890
+    second: inicio_56
+  - first:
+      213: 4282589155887464142
+    second: inicio_57
+  - first:
+      213: -588367502518933610
+    second: inicio_58
+  - first:
+      213: -9176290534288160926
+    second: inicio_59
+  - first:
+      213: -3182737832660297320
+    second: inicio_60
+  - first:
+      213: -2500246555254303092
+    second: inicio_61
+  - first:
+      213: 7151154377996602840
+    second: inicio_62
+  - first:
+      213: 6451800501595872386
+    second: inicio_63
+  - first:
+      213: -8923422442749929148
+    second: inicio_64
+  - first:
+      213: -7128812849966328662
+    second: inicio_65
+  - first:
+      213: -1678574941045237558
+    second: inicio_66
+  - first:
+      213: 5397901944801309657
+    second: inicio_67
+  - first:
+      213: -8554118412752617428
+    second: inicio_68
+  - first:
+      213: 4214849091977362795
+    second: inicio_69
+  - first:
+      213: -45035569251534169
+    second: inicio_70
+  - first:
+      213: 7900498820194407518
+    second: inicio_71
+  - first:
+      213: -3662071582945262960
+    second: inicio_72
+  - first:
+      213: 3512203961126128101
+    second: inicio_73
+  - first:
+      213: 7546741371124098741
+    second: inicio_74
+  - first:
+      213: 4766383217187841806
+    second: inicio_75
+  - first:
+      213: -2511926062408072656
+    second: inicio_76
+  - first:
+      213: 2311927666757836590
+    second: inicio_77
+  - first:
+      213: -8693031397161470106
+    second: inicio_78
+  - first:
+      213: 1469816918563519067
+    second: inicio_79
+  - first:
+      213: -4027920010308037936
+    second: inicio_80
+  - first:
+      213: -3739890879488485876
+    second: inicio_81
+  - first:
+      213: -6850130372927498484
+    second: inicio_82
+  - first:
+      213: 6527306203607516543
+    second: inicio_83
+  - first:
+      213: 8656804782255119524
+    second: inicio_84
+  - first:
+      213: -4763794470212445121
+    second: inicio_85
+  - first:
+      213: -7596153072008393714
+    second: inicio_86
+  - first:
+      213: -9008306250637115149
+    second: inicio_87
+  - first:
+      213: 7377547970524962094
+    second: inicio_88
+  - first:
+      213: -8010298236228186448
+    second: inicio_89
+  - first:
+      213: 7488713820185856812
+    second: inicio_90
+  - first:
+      213: 2606133149952072591
+    second: inicio_91
+  - first:
+      213: 4409529720760652337
+    second: inicio_92
+  - first:
+      213: 2896825108074934738
+    second: inicio_93
+  - first:
+      213: -1171216840681660652
+    second: inicio_94
+  - first:
+      213: -7391068961614788330
+    second: inicio_95
+  - first:
+      213: -9039972554788621812
+    second: inicio_96
+  - first:
+      213: -5179030093276449360
+    second: inicio_97
+  - first:
+      213: -2487243506708905754
+    second: inicio_98
+  - first:
+      213: 5479898934682631581
+    second: inicio_99
+  - first:
+      213: 7313628353156966434
+    second: inicio_100
+  - first:
+      213: 168985070325573946
+    second: inicio_101
+  - first:
+      213: -5249945070425142119
+    second: inicio_102
+  - first:
+      213: -678305940327925485
+    second: inicio_103
+  - first:
+      213: -475502186696718289
+    second: inicio_104
+  - first:
+      213: 7804810556708731863
+    second: inicio_105
+  - first:
+      213: 4385888227170741788
+    second: inicio_106
+  - first:
+      213: 2143472672082112593
+    second: inicio_107
+  - first:
+      213: 2417692405463803104
+    second: inicio_108
+  - first:
+      213: -669009201995249206
+    second: inicio_109
+  - first:
+      213: -5474292617262918337
+    second: inicio_110
+  - first:
+      213: -7620700966852225900
+    second: inicio_111
+  - first:
+      213: -192118627218281659
+    second: inicio_112
+  - first:
+      213: -855842700868003780
+    second: inicio_113
+  - first:
+      213: 698084626981197795
+    second: inicio_114
+  - first:
+      213: 4258533996530945889
+    second: inicio_115
+  - first:
+      213: 1356310713259780263
+    second: inicio_116
+  - first:
+      213: -3921297940078965805
+    second: inicio_117
+  - first:
+      213: 7888086345643508679
+    second: inicio_118
+  - first:
+      213: 1302422682996927207
+    second: inicio_119
+  - first:
+      213: 4633192725662705544
+    second: inicio_120
+  - first:
+      213: 4968382381093301476
+    second: inicio_121
+  - first:
+      213: 363507268462031877
+    second: inicio_122
+  - first:
+      213: -5515142674204048096
+    second: inicio_123
+  - first:
+      213: -7030614932596453773
+    second: inicio_124
+  - first:
+      213: -8720748598713677199
+    second: inicio_125
+  - first:
+      213: -5175902372149677930
+    second: inicio_126
+  - first:
+      213: -7878127437737252973
+    second: inicio_127
+  - first:
+      213: 5834122210201186555
+    second: inicio_128
+  - first:
+      213: 7706837307570951283
+    second: inicio_129
+  - first:
+      213: -9111785319255818152
+    second: inicio_130
+  - first:
+      213: -2011713370245992155
+    second: inicio_131
+  - first:
+      213: -350335599583160556
+    second: inicio_132
+  - first:
+      213: 378641487997320693
+    second: inicio_133
+  - first:
+      213: 7254321300443447089
+    second: inicio_134
+  - first:
+      213: 1562847754177176713
+    second: inicio_135
+  - first:
+      213: 8295444251477363712
+    second: inicio_136
+  - first:
+      213: 8702010731272861255
+    second: inicio_137
+  - first:
+      213: 1910118841441923246
+    second: inicio_138
+  - first:
+      213: 1717194975601903618
+    second: inicio_139
+  - first:
+      213: -6990210198764443923
+    second: inicio_140
+  - first:
+      213: -3257922690750166811
+    second: inicio_141
+  - first:
+      213: 700117152829275131
+    second: inicio_142
+  - first:
+      213: -4716696235997203235
+    second: inicio_143
+  - first:
+      213: -987023793281262335
+    second: inicio_144
+  - first:
+      213: 2203224469431427184
+    second: inicio_145
+  - first:
+      213: -4894539421122814272
+    second: inicio_146
+  - first:
+      213: -3215190746710329470
+    second: inicio_147
+  - first:
+      213: 3102230727469888432
+    second: inicio_148
+  - first:
+      213: -7083162205123197582
+    second: inicio_149
+  - first:
+      213: 2243102180462330949
+    second: inicio_150
+  - first:
+      213: -3678467027453219297
+    second: inicio_151
+  - first:
+      213: -1641663790944196420
+    second: inicio_152
+  - first:
+      213: 641510670640511897
+    second: inicio_153
+  - first:
+      213: -1860208771175231282
+    second: inicio_154
+  - first:
+      213: -1098163913829334478
+    second: inicio_155
+  - first:
+      213: 3023412460844057214
+    second: inicio_156
+  - first:
+      213: 8659175019970850221
+    second: inicio_157
+  - first:
+      213: -436243897387664011
+    second: inicio_158
+  - first:
+      213: -2124287427134769444
+    second: inicio_159
+  - first:
+      213: -8737034560102854634
+    second: inicio_160
+  - first:
+      213: 7630945455579456245
+    second: inicio_161
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inicio_0
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 809
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c5dedb2b5f3a540800000000000000
+      internalID: 5018124557860297802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_1
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 810
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937c4ac02c4aceb80800000000000000
+      internalID: -8364129254591117511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_2
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 813
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877a972c351c25b40800000000000000
+      internalID: 5427613066424067960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_3
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 810
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa955ef8ad16b050800000000000000
+      internalID: 5815868580454308526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_4
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 806
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc514174753e9e70800000000000000
+      internalID: 9123788669331791091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_5
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 812
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee772a7012dd21b90800000000000000
+      internalID: -7272507314318182418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_6
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 812
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b759e8061f15dc40800000000000000
+      internalID: 5536365496421144500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_7
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 805
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca9e8db4920ea9c0800000000000000
+      internalID: -3914188188279727424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_8
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 809
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34ff14b253d06190800000000000000
+      internalID: -7971138988283005890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_9
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 812
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811a3cdd48939a6f0800000000000000
+      internalID: -672943426496126696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_10
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 812
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341103177ec4ead40800000000000000
+      internalID: 5597495943788237123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_11
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 810
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6462374726c60460800000000000000
+      internalID: 7207666125653566575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 809
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e4632968a2b3280800000000000000
+      internalID: -9062603067685974509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_13
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 797
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5365d5630cb295d10800000000000000
+      internalID: 2114769604572960309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_14
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 809
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20969d43e46f403a0800000000000000
+      internalID: -6699959529865910014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_15
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 809
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ff5a997751ded60800000000000000
+      internalID: 7921010923037654851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_16
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 809
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1198b25aed1d5bab0800000000000000
+      internalID: -4992853857686288111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 689
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0079c2d811c30b0800000000000000
+      internalID: -5747699726395440921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_18
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 691
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92642f57014127f0800000000000000
+      internalID: -639158172193103202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 691
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0616a641a1d4d47d0800000000000000
+      internalID: -2932603007941320352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 677
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adbbe97035d431b0800000000000000
+      internalID: -5677678826026713694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_21
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 691
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f629b4d28ac78cb00800000000000000
+      internalID: 849065591515615855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_22
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 693
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb086a99a65ab72e0800000000000000
+      internalID: -2126924521739484996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 693
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7613cb0c0e0919f40800000000000000
+      internalID: 5733523095599984999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_24
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 687
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abdb868fd4fe17e80800000000000000
+      internalID: -8182495929796346438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_25
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 693
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568064bc25c9184d0800000000000000
+      internalID: -3134051986261538715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_26
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 691
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830df2c453e1ede80800000000000000
+      internalID: -8152045061233717192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_27
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 692
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acb1107247c23820800000000000000
+      internalID: 2896596598514629795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_28
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 691
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968a01e87b0632e00800000000000000
+      internalID: 1018764282194602089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_29
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 692
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16494dff0c84e32b0800000000000000
+      internalID: -5602960892639275935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_30
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 690
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9088990ccd3c7e0800000000000000
+      internalID: -1746309510721959435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_31
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 692
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b762530b80e2fb5b0800000000000000
+      internalID: -5350507217441970565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_32
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 687
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cfa14cf546969e0800000000000000
+      internalID: -1627659427842950135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_33
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 691
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2b0e88d8de29f70800000000000000
+      internalID: 9192670981559202501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_34
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 691
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2008042028693cb0800000000000000
+      internalID: -4883757833653845972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_35
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 686
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60dd717f0da37a5b0800000000000000
+      internalID: -5357248562560770810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_36
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 693
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce6a9e0d128fba70800000000000000
+      internalID: 8844931254489607879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_37
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 692
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d86fa483cab44c10800000000000000
+      internalID: 2036958280385784019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_38
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 692
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480f7fe078a27fe70800000000000000
+      internalID: 9148827927586533508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_39
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 691
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7074d06f9f7bd3610800000000000000
+      internalID: 1602639326616569607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_40
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 688
+        width: 105
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67fa999cd8229020800000000000000
+      internalID: 2346983283748435820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_41
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 689
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cb32b43931972b0800000000000000
+      internalID: -5586412339434636141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_42
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 671
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af08b199cf051b290800000000000000
+      internalID: -7876425227463589638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_43
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 691
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b74ab9663e37e0800000000000000
+      internalID: -1783928574667409541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_44
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 693
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55977f340782872a0800000000000000
+      internalID: -6739592379718207147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_45
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 692
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66747bf5445e099e0800000000000000
+      internalID: -1616540184399624346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_46
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 671
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f00a201efb3b7e30800000000000000
+      internalID: 4502258214865862897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_47
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 689
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646b0d8b33b6d3850800000000000000
+      internalID: 6358356118805198406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_48
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 689
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1536068f8ef1fa560800000000000000
+      internalID: 7327110204215026513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_49
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 690
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593a94afcffba57b0800000000000000
+      internalID: -5234660523612986475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_50
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 689
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75e7e356c95e68f0800000000000000
+      internalID: -545399796519148162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_51
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 688
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f72d940c57ee0b70800000000000000
+      internalID: 8867279098739501049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_52
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 690
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b60152bab0f0340800000000000000
+      internalID: 4832093754880977820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_53
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 689
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a585b447c301f9490800000000000000
+      internalID: -7737447782964045734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_54
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 689
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4182472a7c2aa90800000000000000
+      internalID: -7304056145094109986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_55
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 690
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01f11233dbabea80800000000000000
+      internalID: -8436460553382006513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_56
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 690
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc47d8545276bb30800000000000000
+      internalID: 4302752200592411890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_57
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 690
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecebc9ba520de6b30800000000000000
+      internalID: 4282589155887464142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_58
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 572
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697a9feafd2b5d7f0800000000000000
+      internalID: -588367502518933610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_59
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 571
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26789fb806447a080800000000000000
+      internalID: -9176290534288160926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_60
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 573
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8991617ddc4a4d3d0800000000000000
+      internalID: -3182737832660297320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_61
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 571
+        width: 105
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c865c2f31075d4dd0800000000000000
+      internalID: -2500246555254303092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_62
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 552
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd8772b4010e3360800000000000000
+      internalID: 7151154377996602840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_63
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 569
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c1f438f56698950800000000000000
+      internalID: 6451800501595872386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_64
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 567
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449542f0192a92480800000000000000
+      internalID: -8923422442749929148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_65
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 572
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa45487ab7e511d90800000000000000
+      internalID: -7128812849966328662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_66
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 572
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8502e0cf084b8e0800000000000000
+      internalID: -1678574941045237558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_67
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 570
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3b540383339ea40800000000000000
+      internalID: 5397901944801309657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_68
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 551
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20804110aaa94980800000000000000
+      internalID: -8554118412752617428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_69
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 572
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d303dfae62e7a30800000000000000
+      internalID: 4214849091977362795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_70
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 571
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa318c6360006ff0800000000000000
+      internalID: -45035569251534169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_71
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 572
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54941e71d534ad60800000000000000
+      internalID: 7900498820194407518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_72
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 567
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092ce7c3c45bd2dc0800000000000000
+      internalID: -3662071582945262960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_73
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 571
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e984a9e4eaddb030800000000000000
+      internalID: 3512203961126128101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_74
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 571
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6a89dea496bb860800000000000000
+      internalID: 7546741371124098741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_75
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 571
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e076ddb5848952240800000000000000
+      internalID: 4766383217187841806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_76
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 572
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0320f141e88d32dd0800000000000000
+      internalID: -2511926062408072656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_77
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 573
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f9f7bb6fd951020800000000000000
+      internalID: 2311927666757836590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_78
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 572
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6677fde70062c5780800000000000000
+      internalID: -8693031397161470106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_79
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 570
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a76d333b6d56410800000000000000
+      internalID: 1469816918563519067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_80
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 552
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2d6e96714f918c0800000000000000
+      internalID: -4027920010308037936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_81
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 572
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c069d555f0d391cc0800000000000000
+      internalID: -3739890879488485876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_82
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 552
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07da8828b27fe0a0800000000000000
+      internalID: -6850130372927498484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_83
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 567
+        width: 104
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75ca36b866a59a50800000000000000
+      internalID: 6527306203607516543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_84
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 573
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac18307516232870800000000000000
+      internalID: 8656804782255119524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_85
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 573
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c54044b2a93edb0800000000000000
+      internalID: -4763794470212445121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_86
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 551
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c8273f60b059690800000000000000
+      internalID: -7596153072008393714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_87
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 567
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f008de61311cf280800000000000000
+      internalID: -9008306250637115149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_88
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 571
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d5b809ac0526660800000000000000
+      internalID: 7377547970524962094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_89
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 571
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be4eacc134b5d090800000000000000
+      internalID: -8010298236228186448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_90
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 451
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b8cb4ea814de760800000000000000
+      internalID: 7488713820185856812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_91
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 453
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b5340ca48da2420800000000000000
+      internalID: 2606133149952072591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_92
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 451
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13257781bebc13d30800000000000000
+      internalID: 4409529720760652337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_93
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 454
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d13d377617933820800000000000000
+      internalID: 2896825108074934738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_94
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 453
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fd6302d700fbfe0800000000000000
+      internalID: -1171216840681660652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_95
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 451
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619098060f5ad6990800000000000000
+      internalID: -7391068961614788330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_96
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 447
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c023b847bd09b8280800000000000000
+      internalID: -9039972554788621812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_97
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 448
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5f231e1936028b0800000000000000
+      internalID: -5179030093276449360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_98
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 452
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e008b865398b7dd0800000000000000
+      internalID: -2487243506708905754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_99
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 448
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dbcce1c038c0c40800000000000000
+      internalID: 5479898934682631581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_100
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 453
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2286529ec3a3f7560800000000000000
+      internalID: 7313628353156966434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_101
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 450
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39a911b60b585200800000000000000
+      internalID: 168985070325573946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_102
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 451
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c0ffa16c27427b0800000000000000
+      internalID: -5249945070425142119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_103
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 452
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31977b1575c2696f0800000000000000
+      internalID: -678305940327925485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_104
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 452
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f284500d74da669f0800000000000000
+      internalID: -475502186696718289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_105
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 453
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbb7d389d1405c60800000000000000
+      internalID: 7804810556708731863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_106
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 448
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e641dea1ecddc30800000000000000
+      internalID: 4385888227170741788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_107
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 453
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1503635e9052fbd10800000000000000
+      internalID: 2143472672082112593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_108
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 454
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e464dbee6e5d8120800000000000000
+      internalID: 2417692405463803104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_109
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 453
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac90b93eca337b6f0800000000000000
+      internalID: -669009201995249206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_110
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 453
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35108f5ed76704b0800000000000000
+      internalID: -5474292617262918337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_111
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 448
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4941c4bc8d4dd3690800000000000000
+      internalID: -7620700966852225900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_112
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 453
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b2bed5025755df0800000000000000
+      internalID: -192118627218281659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_113
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 453
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38d627199f6f14f0800000000000000
+      internalID: -855842700868003780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_114
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 431
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e71066054810b900800000000000000
+      internalID: 698084626981197795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_115
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 452
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fc62f6b1a591b30800000000000000
+      internalID: 4258533996530945889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_116
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 450
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8e7ec586592d210800000000000000
+      internalID: 1356310713259780263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_117
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 450
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db4f17ac40c499c0800000000000000
+      internalID: -3921297940078965805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_118
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 438
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c0bd0dbc187d60800000000000000
+      internalID: 7888086345643508679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_119
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 454
+        width: 17
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea61779782231210800000000000000
+      internalID: 1302422682996927207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_120
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 453
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887ac0d7c386c4040800000000000000
+      internalID: 4633192725662705544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_121
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 448
+        width: 101
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec2065b37d33f440800000000000000
+      internalID: 4968382381093301476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_122
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 450
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504b3f94fef6b0500800000000000000
+      internalID: 363507268462031877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_123
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 450
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025487255f64673b0800000000000000
+      internalID: -5515142674204048096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_124
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 450
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e0806f7fc3e6e90800000000000000
+      internalID: -7030614932596453773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_125
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 332
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a8f2e9a5da9f680800000000000000
+      internalID: -8720748598713677199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_126
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 332
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690bae337308b28b0800000000000000
+      internalID: -5175902372149677930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_127
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 328
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397a962e5d44ba290800000000000000
+      internalID: -7878127437737252973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_128
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 330
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0324b5d37f6f050800000000000000
+      internalID: 5834122210201186555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_129
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 327
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3749e7bd2bf24fa60800000000000000
+      internalID: 7706837307570951283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_130
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 312
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8504328478f6c8180800000000000000
+      internalID: -9111785319255818152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_131
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 330
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52175982955f414e0800000000000000
+      internalID: -2011713370245992155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_132
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 331
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4171caad0ab532bf0800000000000000
+      internalID: -350335599583160556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_133
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 328
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd3e4d5d64314500800000000000000
+      internalID: 378641487997320693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_134
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 332
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f3b77a9c68ca460800000000000000
+      internalID: 7254321300443447089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_135
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 328
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9846fb980c950b510800000000000000
+      internalID: 1562847754177176713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_136
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 332
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c4d5778965f1370800000000000000
+      internalID: 8295444251477363712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_137
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 334
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746f725a7a0c3c870800000000000000
+      internalID: 8702010731272861255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_138
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 327
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea03dee47fa128a10800000000000000
+      internalID: 1910118841441923246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_139
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 334
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20846d27bb3b4d710800000000000000
+      internalID: 1717194975601903618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_140
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 334
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de625552cd8cdfe90800000000000000
+      internalID: -6990210198764443923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_141
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 327
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8c620f29889c2d0800000000000000
+      internalID: -3257922690750166811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_142
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 327
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbfb8357d057b900800000000000000
+      internalID: 700117152829275131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_143
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 334
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4f6f373cdea8eb0800000000000000
+      internalID: -4716696235997203235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_144
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 332
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d9c98e6136d42f0800000000000000
+      internalID: -987023793281262335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_145
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 333
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a8e45bfc639e10800000000000000
+      internalID: 2203224469431427184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_146
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 331
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce14d0345a131cb0800000000000000
+      internalID: -4894539421122814272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_147
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 330
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2873539fc095163d0800000000000000
+      internalID: -3215190746710329470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_148
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 332
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3f42a09665d0b20800000000000000
+      internalID: 3102230727469888432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_149
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 334
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275c82da08d83bd90800000000000000
+      internalID: -7083162205123197582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_150
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 318
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5448c557c89112f10800000000000000
+      internalID: 2243102180462330949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_151
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 327
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ee9a65ab573fcc0800000000000000
+      internalID: -3678467027453219297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_152
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 329
+        width: 104
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb86624ea73a739e0800000000000000
+      internalID: -1641663790944196420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_153
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 328
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b762b5e8a17e800800000000000000
+      internalID: 641510670640511897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_154
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 332
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0d80a7af53f26e0800000000000000
+      internalID: -1860208771175231282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_155
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 332
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232cc0b1db982c0f0800000000000000
+      internalID: -1098163913829334478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_156
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 318
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72891a4d9155f920800000000000000
+      internalID: 3023412460844057214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_157
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 334
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad6c496dc19b2870800000000000000
+      internalID: 8659175019970850221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_158
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 333
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57db6c49c7622f9f0800000000000000
+      internalID: -436243897387664011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_159
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 333
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6bdc807d30582e0800000000000000
+      internalID: -2124287427134769444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_160
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 328
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61012cebb51dfb680800000000000000
+      internalID: -8737034560102854634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inicio_161
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 331
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2e13c167096e960800000000000000
+      internalID: 7630945455579456245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inicio_0: 5018124557860297802
+      inicio_1: -8364129254591117511
+      inicio_10: 5597495943788237123
+      inicio_100: 7313628353156966434
+      inicio_101: 168985070325573946
+      inicio_102: -5249945070425142119
+      inicio_103: -678305940327925485
+      inicio_104: -475502186696718289
+      inicio_105: 7804810556708731863
+      inicio_106: 4385888227170741788
+      inicio_107: 2143472672082112593
+      inicio_108: 2417692405463803104
+      inicio_109: -669009201995249206
+      inicio_11: 7207666125653566575
+      inicio_110: -5474292617262918337
+      inicio_111: -7620700966852225900
+      inicio_112: -192118627218281659
+      inicio_113: -855842700868003780
+      inicio_114: 698084626981197795
+      inicio_115: 4258533996530945889
+      inicio_116: 1356310713259780263
+      inicio_117: -3921297940078965805
+      inicio_118: 7888086345643508679
+      inicio_119: 1302422682996927207
+      inicio_12: -9062603067685974509
+      inicio_120: 4633192725662705544
+      inicio_121: 4968382381093301476
+      inicio_122: 363507268462031877
+      inicio_123: -5515142674204048096
+      inicio_124: -7030614932596453773
+      inicio_125: -8720748598713677199
+      inicio_126: -5175902372149677930
+      inicio_127: -7878127437737252973
+      inicio_128: 5834122210201186555
+      inicio_129: 7706837307570951283
+      inicio_13: 2114769604572960309
+      inicio_130: -9111785319255818152
+      inicio_131: -2011713370245992155
+      inicio_132: -350335599583160556
+      inicio_133: 378641487997320693
+      inicio_134: 7254321300443447089
+      inicio_135: 1562847754177176713
+      inicio_136: 8295444251477363712
+      inicio_137: 8702010731272861255
+      inicio_138: 1910118841441923246
+      inicio_139: 1717194975601903618
+      inicio_14: -6699959529865910014
+      inicio_140: -6990210198764443923
+      inicio_141: -3257922690750166811
+      inicio_142: 700117152829275131
+      inicio_143: -4716696235997203235
+      inicio_144: -987023793281262335
+      inicio_145: 2203224469431427184
+      inicio_146: -4894539421122814272
+      inicio_147: -3215190746710329470
+      inicio_148: 3102230727469888432
+      inicio_149: -7083162205123197582
+      inicio_15: 7921010923037654851
+      inicio_150: 2243102180462330949
+      inicio_151: -3678467027453219297
+      inicio_152: -1641663790944196420
+      inicio_153: 641510670640511897
+      inicio_154: -1860208771175231282
+      inicio_155: -1098163913829334478
+      inicio_156: 3023412460844057214
+      inicio_157: 8659175019970850221
+      inicio_158: -436243897387664011
+      inicio_159: -2124287427134769444
+      inicio_16: -4992853857686288111
+      inicio_160: -8737034560102854634
+      inicio_161: 7630945455579456245
+      inicio_17: -5747699726395440921
+      inicio_18: -639158172193103202
+      inicio_19: -2932603007941320352
+      inicio_2: 5427613066424067960
+      inicio_20: -5677678826026713694
+      inicio_21: 849065591515615855
+      inicio_22: -2126924521739484996
+      inicio_23: 5733523095599984999
+      inicio_24: -8182495929796346438
+      inicio_25: -3134051986261538715
+      inicio_26: -8152045061233717192
+      inicio_27: 2896596598514629795
+      inicio_28: 1018764282194602089
+      inicio_29: -5602960892639275935
+      inicio_3: 5815868580454308526
+      inicio_30: -1746309510721959435
+      inicio_31: -5350507217441970565
+      inicio_32: -1627659427842950135
+      inicio_33: 9192670981559202501
+      inicio_34: -4883757833653845972
+      inicio_35: -5357248562560770810
+      inicio_36: 8844931254489607879
+      inicio_37: 2036958280385784019
+      inicio_38: 9148827927586533508
+      inicio_39: 1602639326616569607
+      inicio_4: 9123788669331791091
+      inicio_40: 2346983283748435820
+      inicio_41: -5586412339434636141
+      inicio_42: -7876425227463589638
+      inicio_43: -1783928574667409541
+      inicio_44: -6739592379718207147
+      inicio_45: -1616540184399624346
+      inicio_46: 4502258214865862897
+      inicio_47: 6358356118805198406
+      inicio_48: 7327110204215026513
+      inicio_49: -5234660523612986475
+      inicio_5: -7272507314318182418
+      inicio_50: -545399796519148162
+      inicio_51: 8867279098739501049
+      inicio_52: 4832093754880977820
+      inicio_53: -7737447782964045734
+      inicio_54: -7304056145094109986
+      inicio_55: -8436460553382006513
+      inicio_56: 4302752200592411890
+      inicio_57: 4282589155887464142
+      inicio_58: -588367502518933610
+      inicio_59: -9176290534288160926
+      inicio_6: 5536365496421144500
+      inicio_60: -3182737832660297320
+      inicio_61: -2500246555254303092
+      inicio_62: 7151154377996602840
+      inicio_63: 6451800501595872386
+      inicio_64: -8923422442749929148
+      inicio_65: -7128812849966328662
+      inicio_66: -1678574941045237558
+      inicio_67: 5397901944801309657
+      inicio_68: -8554118412752617428
+      inicio_69: 4214849091977362795
+      inicio_7: -3914188188279727424
+      inicio_70: -45035569251534169
+      inicio_71: 7900498820194407518
+      inicio_72: -3662071582945262960
+      inicio_73: 3512203961126128101
+      inicio_74: 7546741371124098741
+      inicio_75: 4766383217187841806
+      inicio_76: -2511926062408072656
+      inicio_77: 2311927666757836590
+      inicio_78: -8693031397161470106
+      inicio_79: 1469816918563519067
+      inicio_8: -7971138988283005890
+      inicio_80: -4027920010308037936
+      inicio_81: -3739890879488485876
+      inicio_82: -6850130372927498484
+      inicio_83: 6527306203607516543
+      inicio_84: 8656804782255119524
+      inicio_85: -4763794470212445121
+      inicio_86: -7596153072008393714
+      inicio_87: -9008306250637115149
+      inicio_88: 7377547970524962094
+      inicio_89: -8010298236228186448
+      inicio_9: -672943426496126696
+      inicio_90: 7488713820185856812
+      inicio_91: 2606133149952072591
+      inicio_92: 4409529720760652337
+      inicio_93: 2896825108074934738
+      inicio_94: -1171216840681660652
+      inicio_95: -7391068961614788330
+      inicio_96: -9039972554788621812
+      inicio_97: -5179030093276449360
+      inicio_98: -2487243506708905754
+      inicio_99: 5479898934682631581
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
