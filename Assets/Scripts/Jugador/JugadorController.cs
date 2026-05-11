@@ -4,55 +4,87 @@ using Unity.Cinemachine;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class JugadorController : MonoBehaviour, IDamageable
 {
+    [Header("Movimiento")]
     public float movementSpeed = 3f;
     public float speed;
     public float jump = 7f;
-    Rigidbody2D rb;
+
+    private Rigidbody2D rb;
     private bool isGrounded;
+
     public float groundRadius;
     public LayerMask groundLayer;
     public Transform groundChecker;
 
+    [Header("Camara")]
     public CinemachinePositionComposer cineMachine2;
 
     public float suavizadoCamara = 5f;
     private Vector3 offsetObjetivo;
 
+    [Header("Animaciones")]
     private Animator animator;
 
+    [Header("Vida")]
     public GameObject limitefinal;
     public GameObject vida1;
     public GameObject vida2;
     public GameObject vida3;
+
     public int vidaActual = 3;
 
     public bool esInvulnerable = false;
 
+    [Header("Ataque")]
     private bool atacando;
-
-    private bool IsMoving = false;
 
     [SerializeField] private AtaqueJugador ataque;
 
-    private JugadorInput input;
-
+    [Header("Materiales")]
     private Renderer myRenderer;
+
     public Material materialNuevo;
     public Material materialViejo;
 
+    [Header("Plataforma")]
     private PlataformaMovil plataformaActual;
 
-    
+
+    private Vector2 moveInput;
+    private bool jumpPressed;
+    private bool attackPressed;
+
+    private bool IsMoving = false;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        input = GetComponent<JugadorInput>();
+    }
+    public void OnMove(InputValue value)
+    {
+        moveInput = value.Get<Vector2>();
     }
 
+    public void OnJump(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            jumpPressed = true;
+        }
+    }
+
+    public void OnAttack(InputValue value)
+    {
+        if (value.isPressed)
+        {
+            attackPressed = true;
+        }
+    }
     public void DarVida(int cantidad)
     {
         if (vidaActual < 3)
@@ -147,16 +179,7 @@ public class JugadorController : MonoBehaviour, IDamageable
         isGrounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, groundLayer);
 
         //movimiento derecha con la tecla d
-        float movimientoX = 0;
-
-        if (input.IsRightPressed)
-        {
-            movimientoX = speed;
-        }
-        else if (input.IsLeftPressed)
-        {
-            movimientoX = -speed;
-        }
+        float movimientoX = moveInput.x * speed;
 
         if (plataformaActual != null)
         {
@@ -165,19 +188,23 @@ public class JugadorController : MonoBehaviour, IDamageable
 
         //saltar con el espacio
 
-        if (input.IsJumpPressed && isGrounded)
+        if (jumpPressed && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jump);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x,jump);
         }
 
-        rb.linearVelocity = new Vector2(movimientoX, rb.linearVelocity.y);
+        jumpPressed = false;
+
+        rb.linearVelocity = new Vector2(movimientoX,rb.linearVelocity.y);
 
         //atacar con click izquierdo
 
-        if (input.IsAttackPressed && !atacando)
+        if (attackPressed && !atacando)
         {
-            Atacando(); //hace que atacando sea true
+            Atacando();
         }
+
+        attackPressed = false;
 
         //configuracion cambio animaciones
 
@@ -196,13 +223,13 @@ public class JugadorController : MonoBehaviour, IDamageable
 
         // para q la camara cambie de sentido y se flipee la imagen
 
-        if (input.IsRightPressed)
+        if (moveInput.x > 0)
         {
             offsetObjetivo = new Vector3(3f, 1f, 0f);
             rb.transform.localScale = new Vector3(0.001f, 0.001f, 1f);
             cineMachine2.TargetOffset = Vector3.Lerp(cineMachine2.TargetOffset, new Vector3(4f, 1f, 0f), Time.deltaTime * 5f);
         }
-        else if (input.IsLeftPressed)
+        else if (moveInput.x < 0)
         {
             offsetObjetivo = new Vector3(-3f, 1f, 0f);
             rb.transform.localScale = new Vector3(-0.001f, 0.001f, 1f);
